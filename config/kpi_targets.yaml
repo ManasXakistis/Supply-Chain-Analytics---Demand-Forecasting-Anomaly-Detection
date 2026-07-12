@@ -1,0 +1,25 @@
+# KPI targets for the Supply Chain Analytics project.
+# Set once, at kickoff, so Weeks 2-3 have a fixed pass/fail bar instead of
+# being judged after the fact. Edit the values below, not the structure —
+# scripts in src/ will read this file directly.
+
+forecasting:
+  # Model is considered production-ready if it hits the target.
+  # Stretch is the number we're proud of; target is the number we ship at.
+  mape_target_pct: 12
+  mape_stretch_pct: 8
+  rmse_target: null          # fill in once you know each category's demand scale
+  must_beat_baseline: true   # ARIMA/Prophet must outperform the moving-average baseline, not just exist
+
+anomaly_detection:
+  # Precision matters more than recall here — the brief explicitly calls out
+  # avoiding alert fatigue, so a noisy model that "catches everything" fails.
+  precision_target_pct: 85
+  recall_target_pct: 70
+  max_false_positive_rate_pct: 15
+  ground_truth_source: data/raw/supply_chain_demand_data.csv  # has is_anomaly / anomaly_type
+
+review:
+  checkpoint_cadence: weekly
+  kpi_owner: ""            # fill in
+  last_reviewed: "2026-07-12"
