@@ -1,0 +1,52 @@
+📑 Week 1 Summary – Time-Series Preprocessing & Decomposition
+
+## Objective
+The primary focus of Week 1 was to establish a solid foundation for the demand forecasting pipeline by preparing and decomposing the time-series dataset. This ensures clean, structured data for accurate forecasting and anomaly detection in subsequent weeks.
+
+---
+
+## Activities Completed
+
+### 1. Dataset Acquisition
+- Collected historical supply chain data containing **daily sales and inventory logs**.
+- Verified data integrity (checked for missing dates, duplicate entries, and inconsistent formats).
+
+### 2. Time-Series Indexing
+- Converted the `date` column into a **datetime index** using Pandas.
+- Ensured chronological ordering of records for accurate time-series analysis.
+
+### 3. Resampling & Aggregation
+- Resampled daily data into **weekly and monthly aggregates** to smooth fluctuations.
+- Created multiple views (daily, weekly, monthly) for flexible analysis depending on stakeholder needs.
+
+### 4. Handling Missing Values
+- Identified gaps in the time-series (missing dates).
+- Applied **interpolation techniques** (linear and forward-fill) to impute missing values.
+- Documented the chosen method to maintain transparency in preprocessing.
+
+### 5. Time-Series Decomposition
+- Used **Statsmodels seasonal_decompose** to break down the series into:
+  - **Trend** (long-term movement in demand)
+  - **Seasonality** (recurring patterns such as monthly cycles)
+  - **Residual/Noise** (random fluctuations and anomalies)
+- Generated visual plots to clearly separate these components for stakeholder review.
+
+---
+
+## Deliverables
+- **Cleaned and indexed dataset** ready for forecasting.
+- **Aggregated views** (daily, weekly, monthly) for flexible analysis.
+- **Decomposition charts** showing trend, seasonality, and residuals.
+- Documentation of preprocessing steps and rationale for chosen methods.
+
+---
+
+## Outcomes
+- Established a reliable **data foundation** for demand forecasting.
+- Improved dataset quality by handling missing values and ensuring consistent time intervals.
+- Provided stakeholders with **visual insights** into demand patterns and anomalies.
+- Set the stage for Week 2 tasks (forecast model selection and anomaly detection setup).
+
+---
+
+✅ **Week 1 successfully completed**: The dataset is now structured, decomposed, and ready for forecasting and anomaly detection in the upcoming phases.
