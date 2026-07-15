@@ -1,0 +1,488 @@
+
+# Week 2 Roadmap
+
+There are **5 steps**.
+
+## Step 1: Load and Prepare the Data
+
+Import the required libraries.
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
+Load the dataset.
+
+```python
+df = pd.read_csv("supply_chain_cleaned_data.csv")
+```
+
+Convert the date column into datetime format.
+
+```python
+df["date"] = pd.to_datetime(df["date"])
+```
+
+Check for missing values.
+
+```python
+df.isnull().sum()
+```
+
+---
+
+## Step 2: Choose the Variable for Anomaly Detection
+
+Your dataset contains these useful columns:
+
+| Column                  | Purpose                 |
+| ----------------------- | ----------------------- |
+| units_sold              | Detect abnormal sales   |
+| inventory_level         | Detect stock issues     |
+| warehouse_dispatch_rate | Detect logistics issues |
+
+For your project, you should perform anomaly detection separately on all three.
+
+Example:
+
+```
+units_sold
+```
+
+then
+
+```
+inventory_level
+```
+
+then
+
+```
+warehouse_dispatch_rate
+```
+
+---
+
+# Step 3: Detect Anomalies
+
+Your project specifically suggests these methods:
+
+* Z-Score
+* IQR
+* Isolation Forest
+
+You can implement all three and compare them.
+
+---
+
+# Method 1 : Z-Score
+
+### What is Z-Score?
+
+It tells us
+
+> "How many standard deviations away from the average is this value?"
+
+Formula
+
+[
+Z=\frac{x-\mu}{\sigma}
+]
+
+where
+
+* x = value
+* μ = mean
+* σ = standard deviation
+
+Usually
+
+```
+|Z| > 3
+```
+
+means
+
+**Anomaly**
+
+---
+
+### Code
+
+```python
+from scipy.stats import zscore
+
+df["Z_Score"] = zscore(df["units_sold"])
+
+df["Anomaly_Z"] = abs(df["Z_Score"]) > 3
+```
+
+Now view anomalies
+
+```python
+df[df["Anomaly_Z"]]
+```
+
+---
+
+### Visualization
+
+```python
+plt.figure(figsize=(15,6))
+
+plt.plot(df["date"], df["units_sold"])
+
+plt.scatter(
+    df[df["Anomaly_Z"]]["date"],
+    df[df["Anomaly_Z"]]["units_sold"],
+    color="red",
+    label="Anomaly"
+)
+
+plt.legend()
+plt.show()
+```
+
+---
+
+# Method 2 : IQR Method
+
+### What is IQR?
+
+It uses quartiles.
+
+```
+Q1 = 25%
+Q3 = 75%
+```
+
+Then
+
+```
+IQR = Q3-Q1
+```
+
+Normal Range
+
+```
+Lower = Q1 - 1.5*IQR
+
+Upper = Q3 + 1.5*IQR
+```
+
+Anything outside
+
+↓
+
+Anomaly
+
+---
+
+### Code
+
+```python
+Q1 = df["units_sold"].quantile(0.25)
+
+Q3 = df["units_sold"].quantile(0.75)
+
+IQR = Q3-Q1
+
+lower = Q1 - 1.5*IQR
+
+upper = Q3 + 1.5*IQR
+```
+
+Create anomaly column
+
+```python
+df["Anomaly_IQR"] = (
+    (df["units_sold"] < lower) |
+    (df["units_sold"] > upper)
+)
+```
+
+Show anomalies
+
+```python
+df[df["Anomaly_IQR"]]
+```
+
+---
+
+# Method 3 : Isolation Forest (Recommended)
+
+This is the most advanced method in your project.
+
+### Why?
+
+Unlike Z-score,
+
+it
+
+* works with skewed data
+* works with multiple features
+* detects hidden anomalies
+
+---
+
+### Features to use
+
+```python
+X = df[
+[
+"units_sold",
+"inventory_level",
+"warehouse_dispatch_rate"
+]
+]
+```
+
+---
+
+Train the model
+
+```python
+from sklearn.ensemble import IsolationForest
+
+model = IsolationForest(
+    contamination=0.02,
+    random_state=42
+)
+
+model.fit(X)
+```
+
+Predict
+
+```python
+df["IF_Anomaly"] = model.predict(X)
+```
+
+Convert
+
+```
+1 = Normal
+
+-1 = Anomaly
+```
+
+```python
+df["IF_Anomaly"] = df["IF_Anomaly"].map(
+{
+1:"Normal",
+-1:"Anomaly"
+}
+)
+```
+
+View anomalies
+
+```python
+df[df["IF_Anomaly"]=="Anomaly"]
+```
+
+---
+
+# Step 4: Contextualize the Anomalies
+
+This is one of the key requirements in your project.
+
+Don't stop after finding anomalies.
+
+Try to explain them.
+
+Examples:
+
+### Promotion?
+
+```python
+df[df["Anomaly_Z"]][
+[
+"date",
+"promotion_flag",
+"units_sold"
+]
+]
+```
+
+Maybe
+
+```
+Promotion=True
+
+Huge sales
+
+Not actually a problem.
+```
+
+---
+
+### Low Inventory?
+
+```python
+df[df["Anomaly_Z"]][
+[
+"inventory_level"
+]
+]
+```
+
+Maybe
+
+```
+Inventory dropped
+
+↓
+
+Stockout
+
+↓
+
+Low sales
+```
+
+---
+
+### Warehouse Dispatch Rate
+
+Maybe
+
+```
+Dispatch rate suddenly dropped
+
+↓
+
+Truck delay
+
+↓
+
+Late deliveries
+```
+
+These explanations are exactly what your project asks for.
+
+---
+
+# Step 5: Build Dashboard (Streamlit)
+
+Display
+
+✔ Product Category Selector
+
+```python
+st.selectbox()
+```
+
+↓
+
+Choose
+
+```
+Electronics
+
+Furniture
+
+Beauty
+
+Pet Supplies
+```
+
+---
+
+Then show
+
+### Forecast (Week 3)
+
+```
+Next 90 Days
+```
+
+---
+
+Show historical chart
+
+```python
+plt.plot(date, units_sold)
+```
+
+---
+
+Highlight anomalies
+
+```
+Red Dots
+```
+
+---
+
+Display anomaly table
+
+| Date   | Units Sold | Reason             |
+| ------ | ---------- | ------------------ |
+| Jan-20 | 650        | Promotion          |
+| Mar-12 | 40         | Inventory Shortage |
+
+---
+
+# Suggested Streamlit Layout
+
+```
+------------------------------------------
+Supply Chain Analytics Dashboard
+------------------------------------------
+
+Select Product Category
+
+[ Electronics ▼ ]
+
+------------------------------------------
+
+Historical Demand
+
+(Line Chart)
+
+🔴 = Anomalies
+
+------------------------------------------
+
+Detected Anomalies
+
+Date
+Units Sold
+Inventory
+Promotion
+Reason
+
+------------------------------------------
+
+Forecast
+
+Next 90 Days
+
+(Line Chart)
+
+------------------------------------------
+```
+
+---
+
+# What to Include in Your Week 2 Report
+
+Your report should clearly explain:
+
+1. **Objective**: Detect unusual behavior in sales, inventory, and warehouse dispatch rates.
+2. **Data Used**: `units_sold`, `inventory_level`, `warehouse_dispatch_rate`, `promotion_flag`, and `date`.
+3. **Methods Implemented**:
+
+   * Z-Score
+   * IQR
+   * Isolation Forest
+4. **Results**:
+
+   * Number of anomalies detected by each method.
+   * Visualizations showing anomalies highlighted on time-series charts.
+5. **Business Interpretation**:
+
+   * Link anomalies to possible causes such as promotions, stockouts, supplier delays, or unexpected demand spikes.
