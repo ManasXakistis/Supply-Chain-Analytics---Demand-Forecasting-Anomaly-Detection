@@ -1,0 +1,21 @@
+
+## 📊 Project Summary: Supply Chain Analytics  
+**Goal:** Build a time-series analytics pipeline to forecast demand and detect anomalies in supply chain data.  
+**Business Impact:**  
+- Prevent overstocking (avoiding waste and tied-up capital).  
+- Prevent stockouts (avoiding lost sales and customer dissatisfaction).  
+- Detect anomalies early (e.g., sudden demand spikes or supply delays).  
+
+**Key Metrics:**  
+- Forecast accuracy → measured by **MAPE** or **RMSE**.  
+- Anomaly detection → balance between catching true outliers and avoiding false alerts.  
+
+**User Personas:**  
+- **Supply Chain Manager:** Uses forecasts for procurement planning.  
+- **Operations Analyst:** Relies on anomaly alerts to investigate disruptions.  
+
+**MVP Deliverable:**  
+An interactive **Streamlit web app** where stakeholders can:  
+- Select product categories.  
+- View 90-day demand forecasts.  
+- See historical anomalies highlighted on charts.  
