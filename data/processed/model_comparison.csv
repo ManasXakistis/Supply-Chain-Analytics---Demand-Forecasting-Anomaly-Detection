@@ -1,0 +1,12 @@
+product_category,MAPE_baseline,MAPE_arima,RMSE_baseline,RMSE_arima,arima_wins_mape
+Automotive Parts,1.46,1.85,6.59,8.06,False
+Groceries,6.96,7.5,51.89,53.61,False
+Sporting Goods,11.7,7.69,68.12,48.16,True
+Office Supplies,8.01,7.87,74.78,74.31,True
+Apparel,9.31,9.9,71.5,62.52,False
+Clothing,12.65,11.1,83.25,74.25,True
+Beauty,10.18,11.46,60.72,57.26,False
+Electronics,11.79,12.9,49.84,53.82,False
+Pet Supplies,6.96,13.94,48.0,62.47,False
+Toys,7.1,16.92,20.77,49.36,False
+Furniture,37.56,23.48,134.38,84.99,True
