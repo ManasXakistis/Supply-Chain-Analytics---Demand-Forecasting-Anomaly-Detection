@@ -223,29 +223,41 @@ Supply-Chain-Analytics/
 
 # Installation
 
-Clone the repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Supply-Chain-Analytics.git
+git clone https://github.com/ManasXakistis/Supply-Chain-Analytics---Demand-Forecasting-Anomaly-Detection.git
 ```
 
-Navigate into the project
+Navigate into the project:
 
 ```bash
-cd Supply-Chain-Analytics
+cd "c:\Users\hemangi\Desktop\Supply Chain Analytics - Demand Forecasting"
 ```
 
-Install dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run Streamlit
+Run the notebook pipeline to generate processed data:
 
 ```bash
-streamlit run app.py
+# Run these in order from the project root
+jupyter notebook notebooks/01_data_preprocessing.ipynb
+jupyter notebook notebooks/02_anomaly_detection.ipynb
+jupyter notebook notebooks/03_forecasting_baseline.ipynb
+jupyter notebook notebooks/04_arima_forecast.ipynb
+jupyter notebook notebooks/05_model_evaluation.ipynb
 ```
+
+Launch the multi-page Streamlit dashboard:
+
+```bash
+streamlit run app/app.py
+```
+> The app uses Streamlit's multipage feature: the root page is `app/app.py` and the detailed pages are located in `app/pages/`.> If Streamlit prompts for an onboarding email on first run, press `Enter` to skip.
 
 ---
 
