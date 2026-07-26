@@ -16,10 +16,12 @@ scikit-learn==1.5.0
 ipykernel==6.29.4
 openpyxl==3.1.4
 
+# Week 4 interactive dashboard
+streamlit==1.60.0
+plotly==5.24.1
+
 # ---------------------------------------------------------------
-# Added in later weeks (kept here for reference, install when needed)
-# Week 3 forecasting:
+# Optional (install when needed)
+# Week 3 forecasting alternative:
 #   prophet==1.1.5
-# Week 4 app:
-#   streamlit==1.36.0
 # ---------------------------------------------------------------
