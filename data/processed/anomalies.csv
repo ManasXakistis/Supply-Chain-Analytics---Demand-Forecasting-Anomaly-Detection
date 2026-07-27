@@ -1,0 +1,1383 @@
+date,product_category,units_sold,inventory_level,unit_price,warehouse_dispatch_rate,promotion_flag,residual,z,anomaly_z,anomaly_iqr,anomaly_if,anomaly_votes,anomaly_consensus
+2020-01-02,Apparel,445.1,716.9,171.46,69.9,False,,,False,False,True,1,False
+2020-01-04,Apparel,600.6,712.1,172.11,557.1,True,132.692,1.078,False,True,True,2,True
+2020-01-11,Apparel,456.0,779.1,174.53,420.0,False,31.592,0.257,False,False,True,1,False
+2020-01-13,Apparel,447.0,784.8,162.92,59.0,False,22.536,0.183,False,False,True,1,False
+2020-01-24,Apparel,737.4,1212.4,172.63,736.0,True,246.554,2.003,False,True,False,1,False
+2020-02-16,Apparel,632.5,1236.5,167.36,581.6,True,192.459,1.563,False,True,False,1,False
+2020-03-09,Apparel,340.3,1258.9,168.22,346.3,False,-80.364,-0.653,False,True,False,1,False
+2020-04-01,Apparel,377.2,826.4,175.48,350.1,False,-21.548,-0.175,False,False,True,1,False
+2020-05-07,Apparel,665.8,1301.3,169.57,624.1,True,222.162,1.805,False,True,False,1,False
+2020-05-13,Apparel,569.7,1315.1,164.62,525.6,True,111.541,0.906,False,True,False,1,False
+2020-05-27,Apparel,572.3,1319.1,167.15,584.5,True,152.136,1.236,False,True,False,1,False
+2020-06-11,Apparel,611.9,1300.6,172.36,616.6,True,122.42,0.994,False,True,False,1,False
+2020-07-08,Apparel,561.0,1311.1,161.74,530.5,True,127.905,1.039,False,True,False,1,False
+2020-07-13,Apparel,489.0,1319.3,170.9,492.7,True,76.243,0.619,False,True,False,1,False
+2020-08-06,Apparel,441.7,1256.567,171.033,427.967,False,-75.137,-0.61,False,True,False,1,False
+2020-08-08,Apparel,423.5,1245.0,170.09,434.8,False,-82.236,-0.668,False,True,False,1,False
+2020-08-09,Apparel,1007.6,1244.3,168.32,387.4,False,505.937,4.109,True,True,False,2,True
+2020-08-10,Apparel,371.9,1257.5,167.77,389.9,False,-127.871,-1.038,False,True,False,1,False
+2020-08-12,Apparel,440.6,1006.35,167.445,410.35,False,-76.702,-0.623,False,True,False,1,False
+2020-08-16,Apparel,524.2,1237.6,166.67,511.6,True,69.766,0.567,False,True,False,1,False
+2020-09-13,Apparel,365.1,1264.3,165.2,339.0,False,-83.22,-0.676,False,True,False,1,False
+2020-09-14,Apparel,374.7,1259.5,164.68,366.0,False,-79.628,-0.647,False,True,False,1,False
+2020-09-16,Apparel,622.1,1229.7,169.68,628.4,True,141.598,1.15,False,True,False,1,False
+2020-09-29,Apparel,582.8,1236.6,169.26,539.5,True,153.257,1.245,False,True,False,1,False
+2020-10-18,Apparel,397.467,1254.9,171.373,389.2,False,-176.353,-1.432,False,True,False,1,False
+2020-10-19,Apparel,372.4,1265.7,173.66,381.5,False,-365.643,-2.97,False,True,False,1,False
+2020-10-21,Apparel,1200.333,1246.7,171.38,413.767,False,265.45,2.156,False,True,False,1,False
+2020-10-22,Apparel,1614.3,1237.2,170.24,429.9,False,677.956,5.507,True,True,False,2,True
+2020-10-23,Apparel,1224.067,1237.5,170.173,433.833,False,277.762,2.256,False,True,False,1,False
+2020-10-25,Apparel,443.6,1238.1,170.04,441.7,False,-322.656,-2.62,False,True,False,1,False
+2020-10-26,Apparel,434.95,1235.15,170.73,421.65,False,-163.943,-1.331,False,True,False,1,False
+2020-11-05,Apparel,519.3,961.6,163.62,69.4,False,26.347,0.214,False,False,True,1,False
+2020-11-11,Apparel,460.5,1249.567,166.74,467.733,False,-74.65,-0.606,False,True,False,1,False
+2020-11-12,Apparel,477.2,1245.233,168.45,484.967,False,-196.687,-1.597,False,True,False,1,False
+2020-11-13,Apparel,493.9,1240.9,170.16,502.2,False,-393.754,-3.198,True,True,False,2,True
+2020-11-15,Apparel,1417.167,1262.3,170.807,439.867,False,443.482,3.602,True,True,False,2,True
+2020-11-16,Apparel,1878.8,1273.0,171.13,408.7,False,905.65,7.356,True,True,False,2,True
+2020-11-17,Apparel,1177.85,1264.6,171.71,442.35,False,213.428,1.734,False,True,False,1,False
+2020-11-18,Apparel,476.9,1256.2,172.29,476.0,False,-455.314,-3.698,True,True,False,2,True
+2020-11-19,Apparel,486.6,1252.95,169.67,469.25,False,-303.265,-2.463,False,True,False,1,False
+2020-11-20,Apparel,496.3,1249.7,167.05,462.5,False,-88.59,-0.719,False,True,False,1,False
+2020-11-27,Apparel,759.8,1236.1,173.53,692.9,True,227.874,1.851,False,True,False,1,False
+2020-11-29,Apparel,433.7,1253.5,172.39,426.4,False,-88.091,-0.715,False,True,False,1,False
+2020-12-01,Apparel,583.4,1257.2,166.2,587.8,True,112.271,0.912,False,True,False,1,False
+2020-12-07,Apparel,402.8,1309.6,166.85,415.1,False,-83.528,-0.678,False,True,False,1,False
+2020-12-09,Apparel,625.5,1252.3,174.18,644.0,True,109.627,0.891,False,True,False,1,False
+2020-12-25,Apparel,515.1,1256.8,167.97,4889.0,False,42.996,0.349,False,False,True,1,False
+2021-01-29,Apparel,602.5,1276.1,164.41,603.0,True,125.031,1.016,False,True,False,1,False
+2021-02-06,Apparel,535.96,1284.38,171.602,550.98,False,64.971,0.528,False,True,False,1,False
+2021-02-07,Apparel,566.7,1284.7,171.87,583.7,True,105.186,0.855,False,True,False,1,False
+2021-02-08,Apparel,374.7,1292.8,169.24,391.5,False,-82.926,-0.673,False,True,False,1,False
+2021-03-13,Apparel,601.3,1267.333,171.37,607.433,False,89.692,0.729,False,True,False,1,False
+2021-03-14,Apparel,653.8,1268.5,174.51,654.4,True,149.451,1.214,False,True,False,1,False
+2021-03-15,Apparel,419.1,1278.4,171.77,388.3,False,-77.271,-0.627,False,True,False,1,False
+2021-04-10,Apparel,638.9,1299.1,171.02,669.8,True,158.892,1.291,False,True,False,1,False
+2021-04-12,Apparel,421.9,1306.4,167.14,392.7,False,-76.343,-0.62,False,True,False,1,False
+2021-04-13,Apparel,382.5,1324.8,167.26,374.0,False,-115.891,-0.941,False,True,False,1,False
+2021-04-15,Apparel,638.7,1307.5,169.53,636.1,True,137.913,1.12,False,True,False,1,False
+2021-04-16,Apparel,564.733,1307.633,168.02,565.667,False,66.122,0.537,False,True,False,1,False
+2021-04-22,Apparel,523.3,1312.7,164.32,547.7,True,76.727,0.623,False,True,False,1,False
+2021-05-06,Apparel,674.0,1297.2,170.62,698.8,True,138.863,1.128,False,True,False,1,False
+2021-06-30,Apparel,397.4,1293.8,168.94,3610.0,False,-19.452,-0.158,False,False,True,1,False
+2021-07-10,Apparel,440.5,1297.3,173.74,4202.0,False,6.692,0.055,False,False,True,1,False
+2021-07-20,Apparel,417.0,1291.7,164.98,3981.0,False,35.457,0.288,False,False,True,1,False
+2021-09-10,Apparel,669.6,1305.7,170.15,670.4,True,175.153,1.423,False,True,False,1,False
+2021-09-22,Apparel,645.4,1338.3,171.76,608.6,True,147.615,1.199,False,True,False,1,False
+2021-10-03,Apparel,497.4,1321.54,167.042,483.14,False,-389.749,-3.165,True,True,False,2,True
+2021-10-04,Apparel,486.8,1324.62,166.026,465.12,False,-400.128,-3.25,True,True,False,2,True
+2021-10-05,Apparel,476.2,1327.7,165.01,447.1,False,-396.936,-3.224,True,True,False,2,True
+2021-10-06,Apparel,3255.4,1324.8,174.39,740.1,True,2345.262,19.049,True,True,True,3,True
+2021-10-07,Apparel,540.8,1310.2,169.34,515.1,False,-362.558,-2.945,False,True,False,1,False
+2021-10-08,Apparel,485.55,1291.55,169.77,470.75,False,-414.762,-3.369,True,True,False,2,True
+2021-10-09,Apparel,513.4,1309.7,166.66,482.9,False,-369.565,-3.001,True,True,False,2,True
+2021-10-14,Apparel,615.7,1323.0,171.99,607.8,True,113.456,0.922,False,True,False,1,False
+2021-10-22,Apparel,504.6,1304.8,173.41,4952.0,False,-3.544,-0.029,False,False,True,1,False
+2021-11-08,Apparel,588.2,1288.1,170.19,600.45,False,97.586,0.793,False,True,False,1,False
+2021-11-29,Apparel,403.9,1309.8,167.95,399.7,False,-84.814,-0.689,False,True,False,1,False
+2021-11-30,Apparel,653.5,1298.2,165.11,660.1,True,173.742,1.411,False,True,False,1,False
+2022-02-24,Apparel,724.7,1295.0,165.47,716.8,True,169.056,1.373,False,True,False,1,False
+2022-04-02,Apparel,539.0,1324.3,167.67,539.9,False,82.607,0.671,False,True,False,1,False
+2022-04-08,Apparel,429.1,1409.1,170.047,428.433,False,-328.562,-2.668,False,True,False,1,False
+2022-04-09,Apparel,435.7,1383.8,172.243,439.867,False,-327.558,-2.66,False,True,False,1,False
+2022-04-10,Apparel,442.3,1358.5,174.44,451.3,False,-312.563,-2.538,False,True,False,1,False
+2022-04-11,Apparel,2668.6,805.6,171.49,781.9,True,1911.2,15.523,True,True,True,3,True
+2022-04-12,Apparel,538.0,1380.3,169.0,491.4,False,-220.186,-1.788,False,True,False,1,False
+2022-04-13,Apparel,409.4,1377.2,166.61,428.9,False,-391.781,-3.182,True,True,False,2,True
+2022-04-14,Apparel,453.4,1368.7,171.9,468.5,False,-346.323,-2.813,False,True,False,1,False
+2022-05-10,Apparel,541.0,1422.0,170.48,512.8,True,101.121,0.822,False,True,False,1,False
+2022-05-19,Apparel,655.5,1425.1,168.72,615.4,True,180.849,1.469,False,True,False,1,False
+2022-06-13,Apparel,418.0,1426.9,171.56,4273.0,False,-2.764,-0.022,False,False,True,1,False
+2022-06-28,Apparel,580.2,1424.8,175.58,532.1,True,137.135,1.114,False,True,False,1,False
+2022-07-26,Apparel,504.4,940.0,165.33,43.9,True,62.964,0.512,False,False,True,1,False
+2022-08-03,Apparel,447.55,1392.887,169.121,447.15,False,-84.409,-0.685,False,True,False,1,False
+2022-08-04,Apparel,460.2,1383.35,168.195,467.4,False,-215.315,-1.749,False,True,False,1,False
+2022-08-05,Apparel,472.4,1402.5,172.66,443.9,False,-204.776,-1.663,False,True,False,1,False
+2022-08-06,Apparel,961.4,1193.5,173.28,458.1,False,291.228,2.366,False,True,False,1,False
+2022-08-07,Apparel,1450.4,984.5,173.9,472.3,False,782.262,6.354,True,True,True,3,True
+2022-08-08,Apparel,426.7,993.0,172.61,391.1,False,-244.639,-1.987,False,True,False,1,False
+2022-08-09,Apparel,479.7,1362.1,165.44,470.2,False,-187.051,-1.519,False,True,False,1,False
+2022-08-10,Apparel,487.725,1373.325,165.682,471.8,False,-151.027,-1.226,False,True,False,1,False
+2022-08-27,Apparel,467.0,1409.0,165.52,4634.0,False,-11.622,-0.094,False,False,True,1,False
+2022-09-21,Apparel,492.1,1350.1,168.45,483.25,False,-93.845,-0.762,False,True,False,1,False
+2022-09-23,Apparel,686.55,1334.6,168.0,684.45,False,111.831,0.908,False,True,False,1,False
+2022-09-24,Apparel,834.1,1334.8,167.0,846.1,True,271.799,2.208,False,True,False,1,False
+2022-09-26,Apparel,461.6,1357.4,166.76,476.1,False,-74.195,-0.602,False,True,False,1,False
+2022-10-26,Apparel,487.5,1351.7,170.92,458.15,False,-75.881,-0.616,False,True,False,1,False
+2022-10-28,Apparel,872.1,1340.7,166.32,870.9,True,310.588,2.523,False,True,True,2,True
+2022-11-01,Apparel,511.4,807.8,163.27,489.8,False,14.661,0.119,False,False,True,1,False
+2022-11-02,Apparel,534.5,807.0,165.22,33.8,False,1.212,0.01,False,False,True,1,False
+2022-11-18,Apparel,543.0,1381.8,167.05,491.0,False,-146.969,-1.193,False,True,False,1,False
+2022-11-19,Apparel,471.7,1412.7,169.23,442.8,False,-309.453,-2.513,False,True,False,1,False
+2022-11-20,Apparel,632.8,1411.2,167.96,600.6,True,-218.884,-1.778,False,True,False,1,False
+2022-11-21,Apparel,1423.3,1435.6,167.38,390.2,False,514.029,4.175,True,True,True,3,True
+2022-11-22,Apparel,1273.117,1428.617,168.302,412.833,False,332.978,2.705,False,True,False,1,False
+2022-11-23,Apparel,1122.933,1421.633,169.223,435.467,False,117.896,0.958,False,True,False,1,False
+2022-11-27,Apparel,522.2,1393.7,172.91,526.0,False,-113.049,-0.918,False,True,False,1,False
+2022-11-28,Apparel,465.4,1411.0,164.58,434.3,False,-107.486,-0.873,False,True,False,1,False
+2022-12-04,Apparel,404.5,1373.9,165.7,406.7,False,-94.356,-0.766,False,True,False,1,False
+2022-12-09,Apparel,454.4,1366.3,171.29,427.6,False,-81.797,-0.664,False,True,False,1,False
+2022-12-12,Apparel,674.5,1399.4,167.45,702.0,True,155.079,1.26,False,True,False,1,False
+2022-12-18,Apparel,683.5,1365.6,170.12,674.8,True,157.28,1.278,False,True,False,1,False
+2022-12-22,Apparel,549.5,1336.1,161.17,5593.0,False,-2.773,-0.022,False,False,True,1,False
+2020-01-09,Automotive Parts,227.9,764.9,220.75,228.5,False,-84.32,-1.608,False,True,False,1,False
+2020-01-12,Automotive Parts,358.75,828.4,214.265,343.3,False,48.636,0.927,False,True,False,1,False
+2020-01-13,Automotive Parts,369.4,838.4,211.45,356.0,True,60.426,1.152,False,True,False,1,False
+2020-02-11,Automotive Parts,266.6,676.0,210.93,271.3,False,-51.882,-0.989,False,True,False,1,False
+2020-03-07,Automotive Parts,265.6,807.0,216.77,244.4,False,-68.532,-1.307,False,True,False,1,False
+2020-04-30,Automotive Parts,311.6,828.2,217.0,296.7,False,-58.984,-1.125,False,True,False,1,False
+2020-05-01,Automotive Parts,472.4,813.8,219.42,438.1,True,95.06,1.812,False,True,False,1,False
+2020-05-02,Automotive Parts,431.2,817.15,219.07,417.8,False,69.247,1.32,False,True,False,1,False
+2020-05-05,Automotive Parts,264.5,841.4,211.63,244.0,False,-81.211,-1.548,False,True,False,1,False
+2020-05-08,Automotive Parts,408.7,832.7,219.04,409.2,True,69.681,1.328,False,True,False,1,False
+2020-06-12,Automotive Parts,373.6,870.4,214.13,337.7,True,80.095,1.527,False,True,False,1,False
+2020-06-19,Automotive Parts,394.4,861.2,222.9,382.6,True,58.524,1.116,False,True,False,1,False
+2020-07-15,Automotive Parts,255.5,792.5,224.22,2334.0,False,1.777,0.034,False,False,True,1,False
+2020-08-10,Automotive Parts,215.7,764.9,211.45,204.5,False,5.94,0.113,False,False,True,1,False
+2020-09-02,Automotive Parts,432.9,784.9,219.02,420.6,True,115.662,2.205,False,True,False,1,False
+2020-09-30,Automotive Parts,336.467,731.167,216.597,311.167,False,47.365,0.903,False,True,False,1,False
+2020-10-01,Automotive Parts,390.7,725.9,218.16,359.5,True,83.43,1.591,False,True,False,1,False
+2020-10-02,Automotive Parts,269.0,740.0,216.35,252.2,False,-50.04,-0.954,False,True,False,1,False
+2020-10-12,Automotive Parts,330.2,605.8,217.19,328.0,False,60.069,1.145,False,True,False,1,False
+2020-10-20,Automotive Parts,323.2,722.8,216.91,2990.0,True,42.311,0.807,False,False,True,1,False
+2020-11-23,Automotive Parts,359.2,651.1,222.25,337.7,True,56.698,1.081,False,True,False,1,False
+2020-12-10,Automotive Parts,242.6,739.2,214.21,249.2,False,-91.97,-1.754,False,True,False,1,False
+2020-12-11,Automotive Parts,424.2,626.0,215.98,426.0,False,82.324,1.569,False,True,False,1,False
+2020-12-16,Automotive Parts,484.1,591.4,215.45,491.5,True,120.248,2.293,False,True,False,1,False
+2021-01-01,Automotive Parts,375.2,382.9,224.88,43.9,False,7.738,0.147,False,False,True,1,False
+2021-01-06,Automotive Parts,333.2,614.1,219.63,314.6,False,-69.873,-1.332,False,True,False,1,False
+2021-01-07,Automotive Parts,483.9,607.3,218.84,484.2,True,48.616,0.927,False,True,False,1,False
+2021-01-10,Automotive Parts,509.5,595.1,219.71,518.8,True,52.028,0.992,False,True,False,1,False
+2021-01-17,Automotive Parts,325.6,606.3,219.05,322.4,False,-59.029,-1.126,False,True,False,1,False
+2021-01-19,Automotive Parts,464.4,591.0,221.95,425.0,True,52.811,1.007,False,True,False,1,False
+2021-01-20,Automotive Parts,478.6,581.1,219.63,474.9,True,61.655,1.175,False,True,False,1,False
+2021-01-21,Automotive Parts,366.7,590.1,211.5,355.8,False,-66.548,-1.269,False,True,False,1,False
+2021-01-22,Automotive Parts,559.8,581.4,211.45,559.0,True,123.174,2.348,False,True,True,2,True
+2021-01-26,Automotive Parts,393.15,595.4,216.985,388.4,False,-83.682,-1.596,False,True,False,1,False
+2021-01-27,Automotive Parts,434.5,599.6,221.71,419.9,True,-94.73,-1.806,False,True,False,1,False
+2021-01-28,Automotive Parts,376.9,591.3,218.63,394.0,False,-162.263,-3.094,True,True,False,2,True
+2021-01-29,Automotive Parts,1065.1,590.6,221.3,389.6,False,514.16,9.803,True,True,True,3,True
+2021-01-30,Automotive Parts,712.5,597.25,221.93,371.9,False,176.497,3.365,True,True,False,2,True
+2021-01-31,Automotive Parts,359.9,603.9,222.56,354.2,False,-160.736,-3.065,True,True,False,2,True
+2021-02-01,Automotive Parts,422.8,503.75,221.435,395.8,False,-83.01,-1.583,False,True,False,1,False
+2021-02-07,Automotive Parts,392.1,617.1,226.66,401.3,False,47.539,0.906,False,True,False,1,False
+2021-02-23,Automotive Parts,435.6,642.7,218.96,423.4,True,62.625,1.194,False,True,False,1,False
+2021-03-10,Automotive Parts,446.3,614.0,215.32,441.7,True,63.031,1.202,False,True,False,1,False
+2021-03-13,Automotive Parts,337.9,449.2,213.91,21.7,False,-36.515,-0.696,False,False,True,1,False
+2021-05-02,Automotive Parts,391.1,610.2,226.58,391.8,False,55.4,1.056,False,True,False,1,False
+2021-05-20,Automotive Parts,441.0,680.8,219.57,424.6,True,94.144,1.795,False,True,False,1,False
+2021-06-04,Automotive Parts,400.7,642.9,214.79,372.0,False,64.138,1.223,False,True,False,1,False
+2021-06-06,Automotive Parts,268.1,705.7,216.57,258.7,False,-60.572,-1.155,False,True,False,1,False
+2021-07-07,Automotive Parts,393.4,680.6,213.46,410.2,True,94.262,1.797,False,True,False,1,False
+2021-07-09,Automotive Parts,250.8,711.1,217.67,248.9,False,-64.855,-1.237,False,True,False,1,False
+2021-07-12,Automotive Parts,330.1,656.9,211.15,343.8,False,65.426,1.247,False,True,False,1,False
+2021-07-30,Automotive Parts,280.2,660.9,207.36,263.4,False,-72.24,-1.377,False,True,False,1,False
+2021-07-31,Automotive Parts,408.2,629.45,213.595,385.75,False,63.154,1.204,False,True,False,1,False
+2021-08-01,Automotive Parts,536.2,598.0,219.83,508.1,True,193.828,3.695,True,True,False,2,True
+2021-08-02,Automotive Parts,269.3,670.4,216.71,254.0,False,-55.952,-1.067,False,True,False,1,False
+2021-08-03,Automotive Parts,291.8,672.9,218.59,280.55,False,-51.825,-0.988,False,True,False,1,False
+2021-08-07,Automotive Parts,260.6,682.8,219.17,260.0,False,-52.382,-0.999,False,True,False,1,False
+2021-08-09,Automotive Parts,377.8,682.3,215.52,395.2,True,98.012,1.869,False,True,False,1,False
+2021-08-17,Automotive Parts,244.9,684.4,208.35,225.0,False,-17.213,-0.328,False,False,True,1,False
+2021-08-21,Automotive Parts,333.6,682.3,215.79,307.1,True,60.254,1.149,False,True,False,1,False
+2021-08-23,Automotive Parts,203.5,699.5,224.2,199.7,False,-50.831,-0.969,False,True,False,1,False
+2021-11-07,Automotive Parts,316.3,663.6,224.22,289.6,False,-65.086,-1.241,False,True,False,1,False
+2021-11-08,Automotive Parts,443.0,659.3,217.77,427.2,True,59.883,1.142,False,True,False,1,False
+2021-11-09,Automotive Parts,451.833,654.233,215.25,429.867,False,47.035,0.897,False,True,False,1,False
+2021-11-10,Automotive Parts,460.667,649.167,212.73,432.533,False,54.065,1.031,False,True,False,1,False
+2021-11-11,Automotive Parts,469.5,644.1,210.21,435.2,True,49.802,0.949,False,True,False,1,False
+2021-11-13,Automotive Parts,309.7,670.8,223.37,299.4,False,-62.384,-1.19,False,True,False,1,False
+2021-12-13,Automotive Parts,508.2,663.3,220.9,466.0,True,143.269,2.731,False,True,False,1,False
+2021-12-17,Automotive Parts,383.7,656.8,220.14,3789.0,False,19.51,0.372,False,False,True,1,False
+2021-12-30,Automotive Parts,578.5,660.5,210.61,603.3,True,168.244,3.208,True,True,True,3,True
+2022-01-08,Automotive Parts,270.3,564.0,211.91,280.0,False,-91.339,-1.742,False,True,False,1,False
+2022-01-09,Automotive Parts,367.6,353.4,216.76,91.3,False,3.886,0.074,False,False,True,1,False
+2022-01-10,Automotive Parts,405.1,357.4,217.28,254.1,False,50.798,0.968,False,True,False,1,False
+2022-01-11,Automotive Parts,442.6,361.4,217.8,416.9,True,59.832,1.141,False,True,False,1,False
+2022-01-15,Automotive Parts,370.7,686.5,221.12,3731.0,False,-11.961,-0.228,False,False,True,1,False
+2022-02-15,Automotive Parts,358.9,627.1,228.17,341.9,False,-52.582,-1.003,False,True,False,1,False
+2022-02-17,Automotive Parts,607.0,599.9,219.26,620.3,True,185.634,3.539,True,True,True,3,True
+2022-03-05,Automotive Parts,460.0,541.7,216.52,462.5,True,61.286,1.168,False,True,False,1,False
+2022-03-08,Automotive Parts,349.65,571.1,219.78,354.85,False,-70.35,-1.341,False,True,False,1,False
+2022-03-10,Automotive Parts,563.6,593.1,218.25,547.1,True,139.419,2.658,False,True,True,2,True
+2022-03-16,Automotive Parts,421.2,592.5,219.75,4418.0,False,27.398,0.522,False,False,True,1,False
+2022-03-28,Automotive Parts,507.0,579.2,215.02,475.7,True,100.033,1.907,False,True,False,1,False
+2022-04-08,Automotive Parts,333.2,543.1,217.97,314.0,False,-51.497,-0.982,False,True,False,1,False
+2022-04-26,Automotive Parts,522.3,417.1,214.64,61.4,True,117.468,2.24,False,True,True,2,True
+2022-06-01,Automotive Parts,409.9,516.6,217.0,426.7,True,67.584,1.288,False,True,False,1,False
+2022-06-16,Automotive Parts,468.8,555.6,221.99,443.5,True,113.287,2.16,False,True,False,1,False
+2022-06-23,Automotive Parts,507.5,553.0,215.7,501.7,True,153.473,2.926,False,True,False,1,False
+2022-08-06,Automotive Parts,396.3,545.8,215.97,394.1,False,99.225,1.892,False,True,False,1,False
+2022-08-21,Automotive Parts,264.3,573.1,226.29,274.4,False,-56.4,-1.075,False,True,False,1,False
+2022-08-22,Automotive Parts,397.3,566.2,212.71,374.2,True,91.869,1.751,False,True,False,1,False
+2022-08-23,Automotive Parts,258.1,576.2,221.46,267.1,False,-61.689,-1.176,False,True,False,1,False
+2022-08-24,Automotive Parts,407.8,562.7,219.13,402.7,True,85.441,1.629,False,True,False,1,False
+2022-10-08,Automotive Parts,318.55,517.15,220.005,1784.5,False,-0.271,-0.005,False,False,True,1,False
+2022-10-09,Automotive Parts,314.9,523.3,221.71,3278.0,False,-0.957,-0.018,False,False,True,1,False
+2022-10-21,Automotive Parts,429.4,505.9,222.165,397.8,False,47.51,0.906,False,True,False,1,False
+2022-10-22,Automotive Parts,519.8,503.4,216.27,469.4,True,153.254,2.922,False,True,False,1,False
+2022-10-24,Automotive Parts,292.7,512.0,221.75,287.7,False,-55.602,-1.06,False,True,False,1,False
+2022-11-05,Automotive Parts,352.6,518.2,217.34,357.1,False,-153.103,-2.919,False,True,False,1,False
+2022-11-06,Automotive Parts,363.0,508.8,218.17,330.6,False,-136.9,-2.61,False,True,False,1,False
+2022-11-07,Automotive Parts,336.7,517.4,217.0,343.1,False,-145.302,-2.77,False,True,False,1,False
+2022-11-08,Automotive Parts,1366.0,546.5,215.1,302.0,False,875.197,16.686,True,True,True,3,True
+2022-11-09,Automotive Parts,348.5,511.95,219.405,356.25,False,-153.345,-2.924,False,True,False,1,False
+2022-11-10,Automotive Parts,348.1,510.975,217.772,335.725,False,-319.956,-6.1,True,True,False,2,True
+2022-11-11,Automotive Parts,347.7,510.0,216.14,315.2,False,-321.462,-6.129,True,True,False,2,True
+2022-11-12,Automotive Parts,397.3,503.8,223.085,392.05,False,-207.532,-3.957,True,True,False,2,True
+2022-11-13,Automotive Parts,1451.8,513.1,217.99,300.3,False,789.071,15.044,True,True,True,3,True
+2022-11-14,Automotive Parts,333.0,513.5,215.89,342.6,False,-351.388,-6.7,True,True,False,2,True
+2022-11-15,Automotive Parts,994.7,511.6,220.67,321.6,False,287.282,5.477,True,True,True,3,True
+2022-11-16,Automotive Parts,797.7,496.0,218.98,339.433,False,89.612,1.708,False,True,False,1,False
+2022-11-18,Automotive Parts,403.7,464.8,215.6,375.1,False,-161.047,-3.071,True,True,False,2,True
+2022-11-19,Automotive Parts,369.4,476.5,225.14,384.2,False,-103.561,-1.975,False,True,False,1,False
+2022-11-20,Automotive Parts,349.0,493.3,215.79,339.6,False,-56.243,-1.072,False,True,False,1,False
+2022-11-22,Automotive Parts,431.2,500.3,230.16,390.5,True,55.825,1.064,False,True,True,2,True
+2022-11-25,Automotive Parts,399.6,467.4,216.56,3777.0,False,2.895,0.055,False,False,True,1,False
+2022-12-02,Automotive Parts,507.1,541.7,218.23,493.55,False,73.995,1.411,False,True,False,1,False
+2022-12-30,Automotive Parts,452.7,478.1,208.93,417.6,False,38.06,0.726,False,False,True,1,False
+2020-01-08,Beauty,405.5,1080.9,167.97,393.4,False,93.751,1.033,False,True,False,1,False
+2020-01-25,Beauty,287.5,548.233,162.38,277.633,False,-28.687,-0.318,False,False,True,1,False
+2020-01-26,Beauty,269.7,552.5,161.37,262.4,False,-22.911,-0.254,False,False,True,1,False
+2020-02-12,Beauty,432.35,1064.9,164.41,419.5,True,91.44,1.007,False,True,False,1,False
+2020-03-07,Beauty,384.2,1107.2,166.325,371.8,False,-116.087,-1.282,False,True,False,1,False
+2020-03-08,Beauty,866.2,1126.9,157.31,329.9,False,390.467,4.306,True,True,True,3,True
+2020-03-09,Beauty,352.1,1119.7,166.48,331.6,False,-83.855,-0.926,False,True,False,1,False
+2020-04-06,Beauty,445.8,1094.2,166.23,420.5,False,96.616,1.064,False,True,False,1,False
+2020-04-07,Beauty,400.95,1091.95,169.52,376.2,False,-112.548,-1.243,False,True,False,1,False
+2020-04-08,Beauty,356.1,1089.7,172.81,331.9,False,-487.478,-5.378,True,True,False,2,True
+2020-04-09,Beauty,366.5,1109.8,167.22,342.3,False,-660.098,-7.282,True,True,False,2,True
+2020-04-10,Beauty,1477.15,1107.8,166.06,447.3,False,460.523,5.078,True,True,True,3,True
+2020-04-11,Beauty,2587.8,1105.8,164.9,552.3,True,1580.575,17.433,True,True,True,3,True
+2020-04-12,Beauty,1452.85,1120.05,165.51,431.5,False,464.81,5.126,True,True,True,3,True
+2020-04-13,Beauty,317.9,1134.3,166.12,310.7,False,-649.148,-7.162,True,True,False,2,True
+2020-04-14,Beauty,353.7,1116.6,164.05,347.2,False,-458.648,-5.06,True,True,False,2,True
+2020-04-15,Beauty,366.4,1106.267,164.29,362.2,False,-146.385,-1.616,False,True,False,1,False
+2020-04-20,Beauty,565.0,1088.7,160.65,560.2,True,120.581,1.329,False,True,False,1,False
+2020-04-22,Beauty,371.8,1083.1,162.24,371.5,False,-128.849,-1.422,False,True,False,1,False
+2020-04-23,Beauty,615.3,1077.7,163.54,587.5,True,84.066,0.926,False,True,False,1,False
+2020-04-27,Beauty,329.7,1082.7,159.62,324.1,False,-90.548,-1.0,False,True,False,1,False
+2020-05-05,Beauty,532.2,1094.7,165.05,558.7,True,116.987,1.289,False,True,False,1,False
+2020-05-06,Beauty,493.267,1084.1,166.167,508.067,False,68.246,0.752,False,True,False,1,False
+2020-05-26,Beauty,360.7,1133.5,166.08,337.9,False,-164.213,-1.813,False,True,False,1,False
+2020-05-27,Beauty,423.3,1109.0,165.12,414.5,False,-115.564,-1.276,False,True,False,1,False
+2020-05-28,Beauty,1250.4,1113.3,162.83,370.9,False,699.28,7.712,True,True,True,3,True
+2020-05-29,Beauty,468.7,1089.8,166.54,472.4,False,-78.553,-0.868,False,True,False,1,False
+2020-05-30,Beauty,420.1,1102.55,166.92,428.55,False,-128.167,-1.415,False,True,False,1,False
+2020-05-31,Beauty,371.5,1115.3,167.3,384.7,False,-151.894,-1.677,False,True,False,1,False
+2020-06-12,Beauty,357.0,1094.05,166.58,341.65,False,-78.005,-0.862,False,True,False,1,False
+2020-06-14,Beauty,524.8,1115.9,165.22,483.4,True,110.203,1.214,False,True,False,1,False
+2020-06-19,Beauty,611.9,1123.6,158.88,611.7,True,159.709,1.76,False,True,False,1,False
+2020-06-29,Beauty,394.8,558.8,166.09,84.6,False,30.755,0.338,False,False,True,1,False
+2020-07-13,Beauty,567.275,1096.65,165.135,569.6,False,102.734,1.132,False,True,False,1,False
+2020-07-14,Beauty,616.8,1098.8,164.46,632.8,True,148.837,1.64,False,True,False,1,False
+2020-07-15,Beauty,392.0,1093.6,169.2,407.7,False,-83.986,-0.928,False,True,False,1,False
+2020-08-01,Beauty,298.6,1035.6,159.43,300.4,False,-124.739,-1.377,False,True,False,1,False
+2020-08-05,Beauty,544.95,1089.55,168.31,522.7,False,77.451,0.853,False,True,False,1,False
+2020-08-06,Beauty,590.4,1066.7,165.71,592.2,True,100.173,1.104,False,True,False,1,False
+2020-09-09,Beauty,490.3,1054.0,165.76,451.8,True,82.565,0.909,False,True,False,1,False
+2020-09-16,Beauty,357.4,1061.4,162.07,3523.0,False,-3.84,-0.044,False,False,True,1,False
+2020-09-28,Beauty,400.9,1089.2,169.17,416.8,True,69.473,0.765,False,True,False,1,False
+2020-10-04,Beauty,454.2,1092.3,167.89,456.7,True,98.782,1.088,False,True,False,1,False
+2020-11-13,Beauty,521.2,1095.2,169.31,479.4,True,86.255,0.95,False,True,False,1,False
+2020-11-30,Beauty,398.9,1094.5,169.02,387.4,True,79.838,0.879,False,True,False,1,False
+2020-12-22,Beauty,436.2,1041.0,163.74,401.5,True,112.545,1.24,False,True,False,1,False
+2020-12-27,Beauty,300.7,1047.4,159.77,273.8,False,-79.81,-0.882,False,True,False,1,False
+2020-12-28,Beauty,445.7,1046.0,164.3,431.6,True,88.991,0.98,False,True,False,1,False
+2021-01-02,Beauty,255.6,1018.5,164.02,255.0,False,-84.092,-0.929,False,True,False,1,False
+2021-01-05,Beauty,406.0,1030.6,164.49,382.7,True,84.352,0.929,False,True,False,1,False
+2021-01-07,Beauty,483.9,965.5,165.26,467.9,False,97.38,1.073,False,True,False,1,False
+2021-02-06,Beauty,487.1,980.1,173.78,460.1,True,69.346,0.764,False,True,False,1,False
+2021-02-11,Beauty,375.9,961.7,164.62,376.1,False,-107.577,-1.188,False,True,False,1,False
+2021-02-12,Beauty,408.1,953.9,163.46,423.1,False,-81.62,-0.902,False,True,False,1,False
+2021-02-13,Beauty,343.2,966.6,168.87,314.6,False,-134.539,-1.485,False,True,False,1,False
+2021-02-14,Beauty,1116.3,968.5,163.71,337.6,False,652.503,7.196,True,True,False,2,True
+2021-02-15,Beauty,332.8,966.0,162.41,312.6,False,-109.058,-1.204,False,True,False,1,False
+2021-02-16,Beauty,296.3,966.1,163.54,274.4,False,-142.427,-1.572,False,True,False,1,False
+2021-02-17,Beauty,380.0,948.3,158.63,364.1,False,-79.506,-0.878,False,True,False,1,False
+2021-03-09,Beauty,371.133,974.933,162.803,373.567,False,-76.344,-0.843,False,True,False,1,False
+2021-03-10,Beauty,405.967,968.567,163.367,400.633,False,-230.604,-2.545,False,True,False,1,False
+2021-03-11,Beauty,440.8,962.2,163.93,427.7,False,-221.305,-2.442,False,True,False,1,False
+2021-03-12,Beauty,1016.3,965.85,165.91,2275.35,False,344.895,3.803,True,True,True,3,True
+2021-03-13,Beauty,1591.8,969.5,167.89,4123.0,False,930.323,10.261,True,True,True,3,True
+2021-03-14,Beauty,373.4,984.0,163.74,345.0,False,-260.754,-2.877,False,True,False,1,False
+2021-03-15,Beauty,343.3,992.9,168.42,320.4,False,-262.005,-2.891,False,True,False,1,False
+2021-03-16,Beauty,320.2,1015.6,161.78,293.2,False,-196.455,-2.168,False,True,False,1,False
+2021-03-29,Beauty,457.2,990.3,162.1,437.9,True,77.609,0.855,False,True,False,1,False
+2021-04-22,Beauty,512.4,969.6,164.98,526.9,False,72.559,0.799,False,True,False,1,False
+2021-05-12,Beauty,437.0,995.25,168.685,2444.65,False,22.375,0.246,False,False,True,1,False
+2021-05-16,Beauty,530.3,1044.4,170.12,480.3,True,73.032,0.804,False,True,False,1,False
+2021-05-19,Beauty,521.4,1032.9,166.69,4701.0,True,70.122,0.772,False,True,True,2,True
+2021-06-24,Beauty,534.7,1000.0,167.95,550.8,True,68.73,0.757,False,True,False,1,False
+2021-07-10,Beauty,469.0,996.1,165.32,4512.0,False,32.968,0.362,False,False,True,1,False
+2021-08-15,Beauty,426.2,1013.9,165.14,4304.0,False,5.024,0.054,False,False,True,1,False
+2021-09-06,Beauty,362.75,644.85,162.485,2070.35,False,-9.112,-0.102,False,False,True,1,False
+2021-09-07,Beauty,364.3,641.8,162.05,3778.0,False,-7.378,-0.083,False,False,True,1,False
+2021-09-08,Beauty,392.55,828.1,165.505,2091.0,False,6.046,0.065,False,False,True,1,False
+2021-09-15,Beauty,557.0,1000.8,167.36,573.2,True,88.819,0.978,False,True,False,1,False
+2021-10-08,Beauty,397.3,996.9,168.03,409.2,False,-79.713,-0.88,False,True,False,1,False
+2021-10-09,Beauty,818.85,989.0,164.88,425.05,False,349.113,3.85,True,True,False,2,True
+2021-10-31,Beauty,515.9,996.0,165.19,517.4,True,134.274,1.48,False,True,False,1,False
+2021-11-06,Beauty,503.45,989.7,165.575,503.25,False,83.103,0.915,False,True,False,1,False
+2021-11-13,Beauty,371.2,1004.0,165.33,379.5,False,-92.204,-1.018,False,True,False,1,False
+2021-11-15,Beauty,493.15,1010.45,167.285,456.85,False,83.752,0.923,False,True,False,1,False
+2021-11-16,Beauty,510.7,1012.8,167.05,467.3,True,102.256,1.127,False,True,False,1,False
+2021-12-06,Beauty,470.7,991.9,163.27,428.1,False,98.873,1.089,False,True,False,1,False
+2021-12-31,Beauty,549.1,722.0,168.15,522.6,True,149.987,1.653,False,True,False,1,False
+2022-01-01,Beauty,335.1,1011.6,166.53,344.2,False,-78.432,-0.866,False,True,False,1,False
+2022-01-06,Beauty,585.3,993.7,161.07,548.3,True,108.823,1.199,False,True,False,1,False
+2022-01-07,Beauty,420.8,976.8,166.53,440.9,False,-91.42,-1.01,False,True,False,1,False
+2022-01-10,Beauty,574.0,940.4,160.67,597.2,True,165.673,1.826,False,True,False,1,False
+2022-03-09,Beauty,540.5,1043.1,162.96,511.6,True,108.808,1.199,False,True,False,1,False
+2022-03-25,Beauty,688.8,997.1,166.42,622.0,True,192.123,2.118,False,True,False,1,False
+2022-03-30,Beauty,661.5,1002.0,160.47,669.0,True,222.851,2.457,False,True,False,1,False
+2022-04-01,Beauty,300.7,1025.5,164.97,297.4,False,-164.948,-1.821,False,True,False,1,False
+2022-04-07,Beauty,444.1,1014.8,163.39,445.1,False,-124.484,-1.374,False,True,False,1,False
+2022-04-08,Beauty,487.8,931.9,168.32,477.6,False,-178.146,-1.966,False,True,False,1,False
+2022-04-09,Beauty,484.8,996.4,167.81,470.7,False,-237.668,-2.623,False,True,False,1,False
+2022-04-10,Beauty,1223.4,978.05,168.075,423.85,False,492.303,5.429,True,True,True,3,True
+2022-04-11,Beauty,1025.633,987.967,167.29,481.067,False,310.585,3.425,True,True,False,2,True
+2022-04-12,Beauty,827.867,997.883,166.505,538.283,False,116.597,1.285,False,True,False,1,False
+2022-04-13,Beauty,630.1,1007.8,165.72,595.5,True,-94.721,-1.046,False,True,False,1,False
+2022-04-14,Beauty,491.3,994.6,162.7,513.7,False,-143.22,-1.581,False,True,False,1,False
+2022-04-15,Beauty,458.9,1002.7,164.56,461.4,False,-104.915,-1.158,False,True,False,1,False
+2022-05-09,Beauty,614.7,1033.0,165.69,608.3,True,152.652,1.683,False,True,False,1,False
+2022-05-16,Beauty,612.7,1036.3,161.61,603.0,True,175.856,1.939,False,True,False,1,False
+2022-06-12,Beauty,590.0,1037.3,161.51,534.9,True,92.303,1.017,False,True,False,1,False
+2022-06-20,Beauty,567.95,1040.0,166.25,547.05,False,68.363,0.753,False,True,False,1,False
+2022-06-21,Beauty,649.0,1042.9,164.67,631.4,True,147.355,1.624,False,True,False,1,False
+2022-07-01,Beauty,710.9,981.5,165.08,733.8,True,169.987,1.874,False,True,False,1,False
+2022-07-03,Beauty,430.3,1010.6,167.83,441.7,False,-93.997,-1.038,False,True,False,1,False
+2022-07-25,Beauty,624.0,942.5,169.09,619.7,True,138.566,1.527,False,True,False,1,False
+2022-08-02,Beauty,585.7,959.3,164.2,613.4,True,139.352,1.536,False,True,False,1,False
+2022-09-07,Beauty,423.9,957.8,167.27,393.3,False,-79.792,-0.881,False,True,False,1,False
+2022-09-08,Beauty,503.0,467.1,170.56,509.5,False,-21.52,-0.239,False,False,True,1,False
+2022-09-09,Beauty,620.1,471.45,166.65,299.25,False,87.352,0.962,False,True,True,2,True
+2022-09-10,Beauty,737.2,475.8,162.74,89.0,True,212.089,2.338,False,True,True,2,True
+2022-09-11,Beauty,421.9,977.0,158.94,404.5,False,-86.283,-0.953,False,True,False,1,False
+2022-09-21,Beauty,713.6,930.2,165.84,652.8,True,248.522,2.74,False,True,False,1,False
+2022-10-01,Beauty,343.9,996.1,163.4,316.5,False,-84.775,-0.936,False,True,False,1,False
+2022-10-11,Beauty,592.3,938.1,162.6,567.6,True,194.009,2.139,False,True,False,1,False
+2022-10-31,Beauty,494.0,973.4,163.08,465.5,True,68.752,0.757,False,True,False,1,False
+2022-12-30,Beauty,565.5,976.5,158.54,534.9,True,117.68,1.297,False,True,False,1,False
+2020-01-11,Clothing,529.367,1067.067,170.717,531.867,False,17.123,0.374,False,True,False,1,False
+2020-02-10,Clothing,428.667,1256.967,173.207,410.833,False,-31.551,-0.692,False,True,False,1,False
+2020-02-11,Clothing,438.683,1241.583,173.553,414.617,False,-100.71,-2.207,False,True,False,1,False
+2020-02-12,Clothing,448.7,1226.2,173.9,418.4,False,-197.055,-4.318,True,True,False,2,True
+2020-02-13,Clothing,695.3,1224.417,174.108,420.117,False,-103.024,-2.258,False,True,False,1,False
+2020-02-14,Clothing,941.9,1222.633,174.317,421.833,False,-37.58,-0.824,False,True,False,1,False
+2020-02-16,Clothing,1435.1,1219.067,174.733,425.267,False,248.283,5.439,True,True,True,3,True
+2020-02-17,Clothing,1681.7,1217.283,174.942,426.983,False,532.961,11.676,True,True,True,3,True
+2020-02-18,Clothing,1928.3,1215.5,175.15,428.7,False,850.283,18.628,True,True,True,3,True
+2020-02-19,Clothing,442.3,1215.8,167.37,400.7,False,-522.698,-11.452,True,True,False,2,True
+2020-02-20,Clothing,439.1,1214.267,168.787,417.333,False,-390.878,-8.564,True,True,False,2,True
+2020-02-21,Clothing,435.9,1212.733,170.203,433.967,False,-219.437,-4.808,True,True,False,2,True
+2020-03-03,Clothing,432.3,1223.72,169.462,425.18,False,-20.882,-0.458,False,True,False,1,False
+2020-03-04,Clothing,418.8,1230.56,168.686,412.34,False,-58.962,-1.292,False,True,False,1,False
+2020-03-05,Clothing,405.3,1237.4,167.91,399.5,False,-65.338,-1.432,False,True,False,1,False
+2020-03-06,Clothing,542.75,1265.45,167.76,551.15,False,79.858,1.749,False,True,False,1,False
+2020-03-07,Clothing,680.2,1293.5,167.61,702.8,True,222.383,4.871,True,True,False,2,True
+2020-03-08,Clothing,357.9,1283.3,166.71,343.6,False,-94.413,-2.069,False,True,False,1,False
+2020-03-09,Clothing,376.52,1273.1,167.268,368.14,False,-78.183,-1.714,False,True,False,1,False
+2020-03-10,Clothing,395.14,1262.9,167.826,392.68,False,-48.02,-1.053,False,True,False,1,False
+2020-03-12,Clothing,432.38,1242.5,168.942,441.76,False,14.364,0.314,False,True,False,1,False
+2020-03-13,Clothing,451.0,1232.3,169.5,466.3,False,28.206,0.617,False,True,False,1,False
+2020-03-16,Clothing,394.9,1244.5,173.85,377.5,False,-14.46,-0.317,False,True,False,1,False
+2020-03-31,Clothing,370.4,822.9,172.83,357.4,False,-14.977,-0.329,False,True,True,2,True
+2020-04-01,Clothing,377.336,837.309,173.197,361.991,False,-2.099,-0.047,False,False,True,1,False
+2020-04-02,Clothing,384.273,851.718,173.565,366.582,False,-4.241,-0.094,False,False,True,1,False
+2020-04-03,Clothing,391.209,866.127,173.932,371.173,False,-3.782,-0.084,False,False,True,1,False
+2020-05-20,Clothing,409.0,1292.6,164.38,420.6,False,14.452,0.316,False,True,False,1,False
+2020-07-24,Clothing,502.0,1248.7,169.05,522.5,False,17.606,0.385,False,True,False,1,False
+2020-08-21,Clothing,436.6,1243.7,171.0,437.2,False,20.446,0.447,False,True,False,1,False
+2020-09-15,Clothing,428.7,1237.0,172.32,435.9,False,13.34,0.292,False,True,False,1,False
+2020-09-21,Clothing,401.5,1235.7,167.9,397.7,False,-21.753,-0.477,False,True,False,1,False
+2020-09-23,Clothing,448.433,1210.5,168.427,417.3,False,15.631,0.342,False,True,False,1,False
+2020-09-24,Clothing,471.9,1197.9,168.69,427.1,False,26.169,0.573,False,True,False,1,False
+2020-10-03,Clothing,391.2,1238.5,174.34,371.8,False,-14.958,-0.328,False,True,False,1,False
+2020-10-18,Clothing,491.8,1223.6,170.85,448.8,False,18.443,0.403,False,True,False,1,False
+2020-10-29,Clothing,447.5,1227.0,171.2,459.9,False,-34.065,-0.747,False,True,False,1,False
+2020-10-30,Clothing,486.2,1232.05,170.932,486.375,False,-19.999,-0.439,False,True,False,1,False
+2020-11-01,Clothing,563.6,1242.15,170.397,539.325,False,15.772,0.345,False,True,False,1,False
+2020-11-02,Clothing,602.3,1247.2,170.13,565.8,True,32.254,0.706,False,True,False,1,False
+2020-11-03,Clothing,605.992,1246.983,169.803,574.225,False,15.686,0.343,False,True,False,1,False
+2020-11-12,Clothing,639.217,1245.033,166.863,650.05,False,25.14,0.55,False,True,False,1,False
+2020-11-13,Clothing,642.908,1244.817,166.537,658.475,False,51.128,1.119,False,True,False,1,False
+2020-11-14,Clothing,646.6,1244.6,166.21,666.9,True,80.406,1.761,False,True,False,1,False
+2020-11-15,Clothing,462.9,1258.5,173.61,474.1,False,-141.157,-3.093,True,True,False,2,True
+2020-11-16,Clothing,457.0,1260.45,172.82,452.15,False,-256.69,-5.624,True,True,False,2,True
+2020-11-17,Clothing,451.1,1262.4,172.03,430.2,False,-368.645,-8.077,True,True,False,2,True
+2020-11-18,Clothing,934.05,1256.35,171.89,455.2,False,21.482,0.47,False,True,False,1,False
+2020-11-19,Clothing,1417.0,1250.3,171.75,480.2,False,379.05,8.304,True,True,True,3,True
+2020-11-20,Clothing,1374.348,1250.413,171.833,477.117,False,221.476,4.852,True,True,False,2,True
+2020-11-21,Clothing,1331.696,1250.526,171.915,474.035,False,71.071,1.556,False,True,False,1,False
+2020-12-11,Clothing,478.652,1252.787,173.567,412.383,False,-20.648,-0.453,False,True,False,1,False
+2020-12-12,Clothing,436.0,1252.9,173.65,409.3,False,-37.746,-0.828,False,True,False,1,False
+2020-12-13,Clothing,432.7,1258.233,171.67,401.3,False,-16.228,-0.356,False,True,False,1,False
+2020-12-29,Clothing,474.3,1256.9,168.11,451.5,False,15.608,0.341,False,True,False,1,False
+2021-01-08,Clothing,479.9,1260.4,168.31,456.1,False,-15.033,-0.33,False,True,False,1,False
+2021-01-21,Clothing,564.992,1050.323,165.605,584.792,False,14.92,0.326,False,True,False,1,False
+2021-01-22,Clothing,569.346,1029.962,165.252,592.246,False,35.419,0.775,False,True,False,1,False
+2021-01-23,Clothing,573.7,1009.6,164.9,599.7,True,63.938,1.4,False,True,True,2,True
+2021-01-24,Clothing,462.2,1008.3,173.34,422.8,False,-17.972,-0.394,False,True,False,1,False
+2021-01-25,Clothing,423.85,1156.45,170.27,401.9,False,-29.627,-0.65,False,True,False,1,False
+2021-01-26,Clothing,385.5,1304.6,167.2,381.0,False,-43.916,-0.963,False,True,False,1,False
+2021-02-15,Clothing,415.3,1262.5,167.85,384.3,False,-18.601,-0.408,False,True,False,1,False
+2021-02-22,Clothing,595.988,1279.825,170.615,599.375,False,29.209,0.639,False,True,False,1,False
+2021-02-23,Clothing,621.8,1282.3,171.01,630.1,True,54.608,1.196,False,True,False,1,False
+2021-02-24,Clothing,584.7,1280.325,170.82,584.1,False,32.693,0.716,False,True,False,1,False
+2021-02-26,Clothing,510.5,1276.375,170.44,492.1,False,-17.111,-0.376,False,True,False,1,False
+2021-02-27,Clothing,473.4,1274.4,170.25,446.1,False,-30.672,-0.673,False,True,False,1,False
+2021-03-17,Clothing,376.7,1295.4,170.77,384.0,False,-14.648,-0.322,False,True,False,1,False
+2021-05-30,Clothing,387.507,1309.16,171.665,351.6,False,-18.725,-0.411,False,True,False,1,False
+2021-05-31,Clothing,387.703,1309.13,171.657,351.65,False,-56.233,-1.233,False,True,False,1,False
+2021-06-01,Clothing,387.9,1309.1,171.65,351.7,False,-95.557,-2.094,False,True,False,1,False
+2021-06-03,Clothing,661.2,1295.7,165.59,613.1,True,103.195,2.26,False,True,False,1,False
+2021-06-04,Clothing,652.811,1295.454,165.535,606.95,False,58.377,1.278,False,True,False,1,False
+2021-06-05,Clothing,644.421,1295.207,165.479,600.8,False,16.705,0.365,False,True,False,1,False
+2021-07-01,Clothing,426.3,1288.8,164.04,440.9,False,-34.296,-0.752,False,True,False,1,False
+2021-07-02,Clothing,456.02,1290.42,164.149,462.6,False,-20.115,-0.441,False,True,False,1,False
+2021-07-10,Clothing,693.78,1303.38,165.021,636.2,False,23.392,0.512,False,True,False,1,False
+2021-07-11,Clothing,723.5,1305.0,165.13,657.9,True,55.583,1.217,False,True,False,1,False
+2021-07-12,Clothing,689.27,1305.03,165.552,628.48,False,29.654,0.649,False,True,False,1,False
+2021-07-20,Clothing,415.43,1305.27,168.928,393.12,False,-18.653,-0.409,False,True,False,1,False
+2021-07-21,Clothing,381.2,1305.3,169.35,363.7,False,-32.942,-0.722,False,True,False,1,False
+2021-07-22,Clothing,392.088,1302.588,168.91,375.4,False,-20.967,-0.46,False,True,False,1,False
+2021-12-01,Clothing,740.012,1290.694,168.698,754.765,False,15.548,0.34,False,True,False,1,False
+2021-12-02,Clothing,747.356,1289.847,168.629,762.132,False,27.82,0.609,False,True,False,1,False
+2021-12-03,Clothing,754.7,1289.0,168.56,769.5,True,55.12,1.207,False,True,False,1,False
+2021-12-04,Clothing,693.325,1287.9,167.932,697.575,False,25.436,0.557,False,True,False,1,False
+2021-12-06,Clothing,570.575,1285.7,166.678,553.725,False,-46.985,-1.03,False,True,False,1,False
+2021-12-07,Clothing,509.2,1284.6,166.05,481.8,False,-82.296,-1.804,False,True,False,1,False
+2021-12-09,Clothing,616.2,1324.5,172.77,585.4,True,68.001,1.489,False,True,False,1,False
+2021-12-10,Clothing,561.3,1314.8,171.575,549.1,False,22.061,0.483,False,True,False,1,False
+2021-12-11,Clothing,506.4,1305.1,170.38,512.8,False,-29.758,-0.653,False,True,False,1,False
+2021-12-12,Clothing,499.6,1308.356,170.158,507.511,False,-19.846,-0.435,False,True,False,1,False
+2021-12-20,Clothing,445.2,1334.4,168.38,465.2,False,-26.753,-0.587,False,True,False,1,False
+2021-12-22,Clothing,499.267,1313.267,166.793,485.933,False,19.272,0.422,False,True,False,1,False
+2021-12-23,Clothing,526.3,1302.7,166.0,496.3,False,35.118,0.769,False,True,False,1,False
+2021-12-24,Clothing,510.46,1306.6,166.452,481.46,False,14.592,0.319,False,True,False,1,False
+2021-12-28,Clothing,447.1,1322.2,168.26,422.1,False,-22.237,-0.488,False,True,False,1,False
+2022-01-03,Clothing,512.5,1296.8,162.38,530.9,False,14.875,0.325,False,True,False,1,False
+2022-01-29,Clothing,484.833,1338.376,174.604,471.281,False,13.29,0.29,False,True,False,1,False
+2022-01-30,Clothing,484.6,1338.5,174.98,470.9,False,24.754,0.542,False,True,False,1,False
+2022-01-31,Clothing,419.2,1353.0,171.59,404.5,False,-33.568,-0.736,False,True,False,1,False
+2022-02-01,Clothing,428.167,1352.8,172.333,407.333,False,-23.403,-0.513,False,True,False,1,False
+2022-02-06,Clothing,505.0,1337.1,174.04,504.6,False,26.468,0.579,False,True,False,1,False
+2022-02-07,Clothing,494.65,1335.917,173.218,494.533,False,15.097,0.33,False,True,False,1,False
+2022-02-12,Clothing,442.9,1330.0,169.11,444.2,False,-19.847,-0.435,False,True,False,1,False
+2022-02-16,Clothing,475.38,1311.68,167.198,480.76,False,12.703,0.278,False,True,False,1,False
+2022-02-17,Clothing,483.5,1307.1,166.72,489.9,False,13.644,0.298,False,True,False,1,False
+2022-03-09,Clothing,474.5,1320.94,170.12,468.1,False,19.488,0.426,False,True,False,1,False
+2022-03-10,Clothing,485.3,1318.6,170.28,487.6,False,25.884,0.566,False,True,False,1,False
+2022-03-13,Clothing,421.4,1340.275,170.618,421.825,False,-21.246,-0.466,False,True,False,1,False
+2022-03-14,Clothing,400.1,1347.5,170.73,399.9,False,-41.782,-0.916,False,True,False,1,False
+2022-03-15,Clothing,430.167,1340.767,171.123,426.5,False,-14.043,-0.308,False,True,False,1,False
+2022-03-16,Clothing,460.233,1334.033,171.517,453.1,False,20.257,0.443,False,True,False,1,False
+2022-03-17,Clothing,490.3,1327.3,171.91,479.7,False,38.338,0.839,False,True,False,1,False
+2022-03-19,Clothing,448.4,1339.9,168.28,445.3,False,-19.288,-0.423,False,True,False,1,False
+2022-03-26,Clothing,486.0,1324.4,171.47,489.0,False,19.455,0.426,False,True,False,1,False
+2022-03-28,Clothing,423.3,1343.5,170.6,421.0,False,-40.542,-0.889,False,True,False,1,False
+2022-03-29,Clothing,447.99,1343.93,170.709,1057.6,False,-23.334,-0.512,False,True,False,1,False
+2022-04-01,Clothing,522.06,1345.22,171.036,2967.4,False,-3.782,-0.084,False,False,True,1,False
+2022-04-02,Clothing,546.75,1345.65,171.145,3604.0,False,-4.015,-0.089,False,False,True,1,False
+2022-04-03,Clothing,571.44,1346.08,171.254,4240.6,False,0.768,0.016,False,False,True,1,False
+2022-04-04,Clothing,596.13,1346.51,171.363,4877.2,False,2.247,0.049,False,False,True,1,False
+2022-04-05,Clothing,620.82,1346.94,171.472,5513.8,False,13.396,0.293,False,True,True,2,True
+2022-04-06,Clothing,645.51,1347.37,171.581,6150.4,False,43.869,0.96,False,True,True,2,True
+2022-04-07,Clothing,670.2,1347.8,171.69,6787.0,True,74.646,1.635,False,True,True,2,True
+2022-04-08,Clothing,605.9,1352.85,169.398,5192.45,False,34.356,0.752,False,True,True,2,True
+2022-04-09,Clothing,541.6,1357.9,167.105,3597.9,False,-0.406,-0.01,False,False,True,1,False
+2022-04-10,Clothing,477.3,1362.95,164.812,2003.35,False,-26.543,-0.582,False,True,True,2,True
+2022-04-11,Clothing,413.0,1368.0,162.52,408.8,False,-52.376,-1.148,False,True,False,1,False
+2022-04-12,Clothing,412.427,1370.727,162.798,409.62,False,-26.629,-0.584,False,True,False,1,False
+2022-06-02,Clothing,418.3,1425.7,175.05,434.8,False,-30.035,-0.659,False,True,False,1,False
+2022-06-04,Clothing,499.5,1337.0,174.89,520.0,False,30.167,0.66,False,True,False,1,False
+2022-06-05,Clothing,493.4,1343.412,174.246,513.606,False,20.783,0.455,False,True,False,1,False
+2022-07-30,Clothing,455.2,1413.1,171.34,467.2,False,19.209,0.42,False,True,False,1,False
+2022-08-01,Clothing,397.5,1425.9,171.1,417.4,False,-22.656,-0.497,False,True,False,1,False
+2022-08-02,Clothing,403.178,1377.444,170.832,417.556,False,-14.115,-0.31,False,True,False,1,False
+2022-08-11,Clothing,490.8,980.9,173.24,459.2,False,27.846,0.609,False,True,False,1,False
+2022-08-12,Clothing,516.3,1402.4,173.6,480.6,False,50.881,1.114,False,True,False,1,False
+2022-08-14,Clothing,423.5,1435.3,173.58,439.9,False,-42.389,-0.929,False,True,False,1,False
+2022-08-15,Clothing,439.433,1432.867,172.063,437.6,False,-22.539,-0.494,False,True,False,1,False
+2022-08-17,Clothing,471.3,1428.0,169.03,433.0,False,17.302,0.378,False,True,False,1,False
+2022-08-31,Clothing,505.367,1388.8,165.931,516.253,False,15.673,0.343,False,True,False,1,False
+2022-09-01,Clothing,507.8,1386.0,165.71,522.2,False,18.255,0.399,False,True,False,1,False
+2022-09-03,Clothing,466.267,1392.8,166.783,475.933,False,-14.046,-0.308,False,True,False,1,False
+2022-09-04,Clothing,445.5,1396.2,167.32,452.8,False,-25.922,-0.569,False,True,False,1,False
+2022-09-11,Clothing,518.1,1342.3,179.74,513.6,False,15.047,0.329,False,True,False,1,False
+2022-09-19,Clothing,467.8,1361.2,167.3,445.1,False,-16.3,-0.358,False,True,False,1,False
+2022-09-23,Clothing,529.2,1335.8,170.78,516.1,False,23.072,0.505,False,True,False,1,False
+2022-09-27,Clothing,465.28,1358.04,169.092,447.86,False,-14.023,-0.308,False,True,False,1,False
+2022-09-28,Clothing,449.3,1363.6,168.67,430.8,False,-23.681,-0.519,False,True,False,1,False
+2022-09-29,Clothing,467.633,1356.933,169.24,452.267,False,-14.085,-0.309,False,True,False,1,False
+2022-10-14,Clothing,539.8,1326.0,169.62,529.7,False,12.941,0.283,False,True,False,1,False
+2022-11-01,Clothing,541.42,860.25,174.993,497.84,False,3.024,0.066,False,False,True,1,False
+2022-11-02,Clothing,541.51,834.375,175.292,496.07,False,12.755,0.279,False,True,True,2,True
+2022-11-03,Clothing,541.6,808.5,175.59,494.3,False,9.064,0.198,False,False,True,1,False
+2022-11-05,Clothing,509.0,1366.6,165.25,500.2,False,-21.795,-0.478,False,True,False,1,False
+2022-11-09,Clothing,537.7,1369.8,172.04,539.4,False,13.182,0.288,False,True,False,1,False
+2022-12-26,Clothing,638.044,1374.261,171.201,589.006,False,16.499,0.361,False,True,False,1,False
+2022-12-27,Clothing,642.2,1374.2,171.12,591.0,True,29.188,0.639,False,True,False,1,False
+2022-12-28,Clothing,613.1,1375.767,170.223,571.767,False,19.983,0.437,False,True,False,1,False
+2020-02-03,Electronics,283.8,531.9,47.61,288.2,True,53.327,0.978,False,True,False,1,False
+2020-02-06,Electronics,313.3,546.2,46.78,325.6,True,46.254,0.849,False,True,False,1,False
+2020-02-10,Electronics,560.8,416.2,48.25,206.5,False,309.499,5.678,True,True,False,2,True
+2020-02-11,Electronics,112.8,527.1,46.39,102.2,False,-127.139,-2.332,False,True,False,1,False
+2020-02-12,Electronics,181.0,543.1,47.98,173.9,False,-88.775,-1.628,False,True,False,1,False
+2020-02-13,Electronics,232.6,255.4,47.42,13.7,False,-69.831,-1.281,False,True,False,1,False
+2020-02-15,Electronics,312.133,447.133,48.113,242.033,False,44.825,0.823,False,True,False,1,False
+2020-02-16,Electronics,351.9,543.0,48.46,356.2,True,96.606,1.772,False,True,False,1,False
+2020-02-17,Electronics,204.6,550.2,46.43,209.8,False,-53.901,-0.989,False,True,False,1,False
+2020-02-26,Electronics,322.1,518.4,47.48,315.9,True,55.247,1.014,False,True,False,1,False
+2020-03-26,Electronics,400.9,486.2,46.98,391.1,True,100.811,1.85,False,True,False,1,False
+2020-04-04,Electronics,414.7,478.4,45.32,413.1,True,113.456,2.082,False,True,False,1,False
+2020-04-13,Electronics,229.8,499.2,47.06,2181.0,False,-22.616,-0.415,False,False,True,1,False
+2020-05-01,Electronics,171.0,518.7,48.03,173.1,False,-115.89,-2.126,False,True,False,1,False
+2020-05-03,Electronics,388.0,491.7,46.9,362.6,True,120.306,2.207,False,True,False,1,False
+2020-05-04,Electronics,312.4,495.35,46.64,297.65,False,46.47,0.853,False,True,False,1,False
+2020-05-25,Electronics,284.3,545.2,46.53,263.5,True,52.752,0.968,False,True,False,1,False
+2020-06-16,Electronics,268.4,569.4,47.07,258.0,True,64.499,1.183,False,True,False,1,False
+2020-06-27,Electronics,210.3,555.9,46.79,1902.0,False,-6.172,-0.113,False,False,True,1,False
+2020-07-09,Electronics,310.9,519.8,46.33,298.5,True,72.919,1.338,False,True,False,1,False
+2020-07-23,Electronics,276.4,537.5,46.28,266.1,True,76.604,1.405,False,True,False,1,False
+2020-07-31,Electronics,314.6,547.3,46.82,315.5,True,102.639,1.883,False,True,False,1,False
+2020-08-11,Electronics,203.8,543.6,46.42,199.6,True,51.706,0.949,False,True,False,1,False
+2020-09-03,Electronics,322.5,533.95,46.16,200.25,False,111.054,2.037,False,True,False,1,False
+2020-09-05,Electronics,150.1,563.9,46.48,147.8,False,-54.094,-0.992,False,True,False,1,False
+2020-09-18,Electronics,227.9,538.2,47.55,237.5,True,64.267,1.179,False,True,False,1,False
+2020-10-04,Electronics,135.3,525.9,48.03,137.5,False,-63.772,-1.17,False,True,False,1,False
+2020-10-06,Electronics,278.55,522.9,47.04,282.1,False,92.142,1.691,False,True,False,1,False
+2020-10-07,Electronics,323.7,532.0,46.79,326.3,True,116.533,2.138,False,True,False,1,False
+2020-10-08,Electronics,155.9,504.4,45.13,142.4,False,-63.824,-1.171,False,True,False,1,False
+2020-10-31,Electronics,232.2,503.7,48.41,212.7,True,47.735,0.876,False,True,False,1,False
+2020-11-15,Electronics,216.8,527.6,47.86,220.3,True,46.521,0.854,False,True,False,1,False
+2020-12-10,Electronics,159.6,514.85,46.755,1156.7,False,-76.748,-1.408,False,True,True,2,True
+2020-12-12,Electronics,317.5,512.6,47.64,291.4,True,76.735,1.408,False,True,False,1,False
+2020-12-16,Electronics,300.4,523.8,47.79,283.9,True,53.675,0.985,False,True,False,1,False
+2020-12-18,Electronics,227.3,513.4,45.33,2059.0,False,-8.997,-0.165,False,False,True,1,False
+2021-01-24,Electronics,312.7,546.1,46.48,286.8,True,56.428,1.035,False,True,False,1,False
+2021-02-03,Electronics,395.0,508.7,46.07,369.5,True,98.861,1.814,False,True,False,1,False
+2021-02-05,Electronics,297.6,539.6,46.67,277.2,False,-177.851,-3.262,True,True,False,2,True
+2021-02-06,Electronics,271.85,536.0,46.53,269.3,False,-201.705,-3.7,True,True,False,2,True
+2021-02-07,Electronics,650.475,541.35,46.44,1346.65,False,213.706,3.921,True,True,True,3,True
+2021-02-08,Electronics,1029.1,546.7,46.35,2424.0,False,617.338,11.325,True,True,True,3,True
+2021-02-09,Electronics,244.5,545.5,46.93,223.0,False,-160.497,-2.944,False,True,False,1,False
+2021-02-10,Electronics,280.6,541.4,47.96,293.4,False,-172.95,-3.172,True,True,False,2,True
+2021-02-11,Electronics,176.0,424.8,46.28,180.4,False,-234.353,-4.299,True,True,False,2,True
+2021-02-13,Electronics,468.9,530.5,45.75,472.9,True,152.942,2.806,False,True,True,2,True
+2021-02-15,Electronics,237.1,547.1,46.57,244.7,False,-76.437,-1.402,False,True,False,1,False
+2021-02-16,Electronics,389.1,529.1,47.1,358.7,True,89.242,1.637,False,True,False,1,False
+2021-03-23,Electronics,358.1,501.0,46.36,364.4,True,67.392,1.237,False,True,False,1,False
+2021-03-29,Electronics,428.3,476.2,47.57,432.9,True,125.413,2.301,False,True,False,1,False
+2021-04-19,Electronics,408.7,488.5,46.15,402.5,True,98.784,1.812,False,True,False,1,False
+2021-04-21,Electronics,292.3,493.25,46.67,301.8,False,-166.889,-3.061,True,True,False,2,True
+2021-04-22,Electronics,313.3,488.1,46.59,323.3,False,-156.946,-2.879,False,True,False,1,False
+2021-04-23,Electronics,339.9,472.1,45.27,310.2,False,-113.176,-2.076,False,True,False,1,False
+2021-04-24,Electronics,1284.0,471.0,46.99,339.4,False,832.206,15.267,True,True,True,3,True
+2021-04-25,Electronics,288.8,475.7,46.64,280.2,False,-164.722,-3.022,True,True,False,2,True
+2021-04-26,Electronics,287.4,478.0,47.58,2767.0,False,-165.701,-3.04,True,True,True,3,True
+2021-04-27,Electronics,276.8,499.9,47.13,284.5,False,-163.744,-3.004,True,True,False,2,True
+2021-04-28,Electronics,447.5,495.9,45.63,410.7,True,126.025,2.312,False,True,False,1,False
+2021-05-11,Electronics,303.667,411.867,46.643,1238.467,False,16.709,0.307,False,False,True,1,False
+2021-05-12,Electronics,307.4,440.05,45.855,1724.0,False,1.083,0.02,False,False,True,1,False
+2021-05-14,Electronics,297.4,488.1,44.86,298.4,False,-76.828,-1.409,False,True,False,1,False
+2021-05-15,Electronics,307.6,486.4,48.03,300.4,False,-60.322,-1.106,False,True,False,1,False
+2021-05-16,Electronics,275.9,316.2,45.0,267.8,False,-66.865,-1.226,False,True,False,1,False
+2021-05-17,Electronics,703.9,318.9,46.5,246.6,False,364.441,6.686,True,True,True,3,True
+2021-05-18,Electronics,274.0,315.3,46.39,61.4,False,-59.201,-1.086,False,True,False,1,False
+2021-05-19,Electronics,274.4,324.5,46.25,253.6,False,-77.96,-1.43,False,True,False,1,False
+2021-05-20,Electronics,310.8,321.2,47.39,281.9,False,-65.603,-1.203,False,True,False,1,False
+2021-05-23,Electronics,353.6,521.2,47.38,325.9,True,55.378,1.016,False,True,False,1,False
+2021-05-24,Electronics,349.6,529.7,46.54,357.4,True,50.941,0.935,False,True,False,1,False
+2021-06-08,Electronics,346.167,508.267,48.073,322.767,False,69.344,1.272,False,True,False,1,False
+2021-06-09,Electronics,387.4,506.6,48.5,353.3,True,89.475,1.642,False,True,False,1,False
+2021-06-10,Electronics,238.0,477.65,46.045,223.6,False,-71.739,-1.316,False,True,False,1,False
+2021-06-29,Electronics,333.3,513.0,47.55,305.0,True,85.106,1.561,False,True,False,1,False
+2021-07-04,Electronics,361.6,489.5,46.685,352.75,False,102.342,1.878,False,True,False,1,False
+2021-07-05,Electronics,205.5,520.3,45.62,215.2,False,-53.08,-0.974,False,True,False,1,False
+2021-07-09,Electronics,239.8,486.0,47.16,2307.0,False,-8.961,-0.164,False,False,True,1,False
+2021-07-17,Electronics,363.5,462.5,45.72,362.8,True,102.735,1.885,False,True,False,1,False
+2021-07-23,Electronics,341.4,467.8,47.48,341.9,True,89.039,1.634,False,True,False,1,False
+2021-08-11,Electronics,314.8,505.5,48.19,317.1,True,83.333,1.529,False,True,False,1,False
+2021-08-31,Electronics,255.8,509.1,46.26,231.6,True,65.271,1.198,False,True,False,1,False
+2021-09-04,Electronics,260.6,498.2,46.08,242.1,True,49.242,0.904,False,True,False,1,False
+2021-09-19,Electronics,292.1,473.5,48.43,268.6,True,87.999,1.615,False,True,False,1,False
+2021-12-02,Electronics,311.3,531.9,47.27,311.1,False,50.121,0.92,False,True,False,1,False
+2021-12-12,Electronics,250.5,388.5,46.25,2589.0,False,15.735,0.289,False,False,True,1,False
+2022-01-04,Electronics,352.4,300.7,47.16,363.3,False,49.592,0.91,False,True,False,1,False
+2022-01-06,Electronics,383.7,336.8,46.14,388.2,True,48.061,0.882,False,True,False,1,False
+2022-01-07,Electronics,301.3,336.4,47.02,298.6,False,-138.611,-2.543,False,True,False,1,False
+2022-01-08,Electronics,289.8,339.6,46.05,277.9,False,-134.551,-2.468,False,True,False,1,False
+2022-01-09,Electronics,248.4,348.2,47.26,232.0,False,-142.519,-2.614,False,True,False,1,False
+2022-01-10,Electronics,1041.2,347.4,46.04,259.3,False,663.445,12.171,True,True,True,3,True
+2022-01-11,Electronics,257.95,325.6,46.95,263.7,False,-117.64,-2.158,False,True,False,1,False
+2022-01-12,Electronics,277.125,333.35,46.97,272.25,False,-137.525,-2.523,False,True,False,1,False
+2022-01-13,Electronics,296.3,341.1,46.99,280.8,False,-143.585,-2.634,False,True,False,1,False
+2022-01-15,Electronics,420.4,333.3,45.73,436.4,True,90.874,1.667,False,True,False,1,False
+2022-01-17,Electronics,248.5,368.0,46.76,226.6,False,-65.109,-1.194,False,True,False,1,False
+2022-01-31,Electronics,431.9,347.5,46.93,413.9,True,100.92,1.852,False,True,False,1,False
+2022-02-01,Electronics,373.55,345.45,46.83,361.9,False,50.856,0.933,False,True,False,1,False
+2022-02-15,Electronics,379.3,355.0,46.815,375.2,False,49.442,0.907,False,True,False,1,False
+2022-02-16,Electronics,463.1,360.9,46.41,443.5,True,108.14,1.984,False,True,False,1,False
+2022-02-27,Electronics,512.9,353.3,48.13,514.3,True,161.335,2.96,False,True,True,2,True
+2022-03-06,Electronics,425.1,346.3,47.44,414.4,True,53.438,0.981,False,True,False,1,False
+2022-03-07,Electronics,491.4,346.9,46.26,487.4,True,119.369,2.19,False,True,False,1,False
+2022-03-09,Electronics,297.45,305.0,45.73,288.8,False,-114.614,-2.102,False,True,False,1,False
+2022-03-12,Electronics,487.9,332.8,46.32,503.5,True,102.535,1.881,False,True,False,1,False
+2022-03-31,Electronics,377.9,294.2,46.86,346.1,False,52.554,0.964,False,True,False,1,False
+2022-04-01,Electronics,242.9,355.2,45.61,237.1,False,-84.261,-1.546,False,True,False,1,False
+2022-04-02,Electronics,273.233,339.067,46.55,260.867,False,-52.275,-0.959,False,True,False,1,False
+2022-04-05,Electronics,329.8,304.9,46.71,3219.0,False,29.766,0.546,False,False,True,1,False
+2022-04-06,Electronics,342.6,301.5,47.345,1788.7,False,25.759,0.473,False,False,True,1,False
+2022-04-10,Electronics,194.4,311.4,47.19,200.1,False,-80.794,-1.482,False,True,False,1,False
+2022-04-20,Electronics,545.7,280.2,46.11,554.7,True,164.825,3.024,True,True,True,3,True
+2022-04-29,Electronics,373.3,281.4,50.07,387.9,False,-9.99,-0.183,False,False,True,1,False
+2022-05-01,Electronics,495.9,292.7,46.57,495.3,True,137.756,2.527,False,True,False,1,False
+2022-05-16,Electronics,288.0,308.3,47.43,275.3,False,-60.623,-1.112,False,True,False,1,False
+2022-05-18,Electronics,438.9,306.2,46.62,403.8,True,79.533,1.459,False,True,False,1,False
+2022-05-19,Electronics,432.6,295.3,46.46,416.4,True,60.704,1.114,False,True,False,1,False
+2022-06-02,Electronics,469.7,280.7,47.42,475.1,True,111.39,2.044,False,True,False,1,False
+2022-06-22,Electronics,432.2,303.6,47.41,425.1,True,103.087,1.891,False,True,False,1,False
+2022-06-30,Electronics,454.6,280.5,48.66,451.8,True,130.783,2.399,False,True,True,2,True
+2022-07-31,Electronics,357.7,252.3,46.17,342.0,True,61.863,1.135,False,True,False,1,False
+2022-08-04,Electronics,254.0,251.7,47.56,2543.0,False,-43.989,-0.807,False,False,True,1,False
+2022-08-05,Electronics,351.4,277.6,46.74,317.9,False,64.903,1.191,False,True,False,1,False
+2022-09-04,Electronics,371.5,290.4,47.07,379.6,False,99.363,1.823,False,True,False,1,False
+2022-09-05,Electronics,214.9,281.6,46.06,201.6,False,-56.351,-1.034,False,True,False,1,False
+2022-10-05,Electronics,344.267,303.45,46.513,330.717,False,49.149,0.902,False,True,False,1,False
+2022-10-06,Electronics,376.0,298.1,46.43,353.0,True,70.421,1.292,False,True,False,1,False
+2022-10-07,Electronics,253.2,292.1,45.87,258.4,False,-52.976,-0.972,False,True,False,1,False
+2022-10-08,Electronics,224.6,290.0,47.9,230.0,False,-79.646,-1.461,False,True,False,1,False
+2022-10-11,Electronics,313.5,290.5,47.56,297.6,True,66.628,1.222,False,True,False,1,False
+2022-10-25,Electronics,291.05,290.0,47.555,275.95,False,45.056,0.827,False,True,False,1,False
+2022-10-26,Electronics,364.6,285.9,46.71,329.8,True,94.233,1.729,False,True,False,1,False
+2022-11-04,Electronics,322.7,303.5,47.17,321.1,False,46.803,0.859,False,True,False,1,False
+2022-11-27,Electronics,315.0,304.0,47.32,284.4,True,47.663,0.875,False,True,False,1,False
+2022-12-17,Electronics,353.9,286.9,45.16,343.1,True,50.299,0.923,False,True,False,1,False
+2020-01-06,Furniture,363.1,764.0,73.76,333.7,True,97.168,1.418,False,True,False,1,False
+2020-01-12,Furniture,392.8,820.9,76.05,376.7,True,94.714,1.382,False,True,False,1,False
+2020-01-26,Furniture,236.7,769.9,73.24,2345.0,False,-13.271,-0.193,False,False,True,1,False
+2020-02-06,Furniture,292.95,777.9,73.975,286.4,False,64.487,0.941,False,True,False,1,False
+2020-02-11,Furniture,342.2,781.4,76.62,320.2,False,110.065,1.606,False,True,False,1,False
+2020-03-12,Furniture,341.25,772.6,73.94,352.0,False,118.59,1.73,False,True,False,1,False
+2020-03-17,Furniture,163.7,761.6,72.0,1654.0,False,-2.67,-0.039,False,False,True,1,False
+2020-03-18,Furniture,163.65,763.7,72.445,1405.65,False,-10.738,-0.157,False,False,True,1,False
+2020-03-19,Furniture,163.6,765.8,72.89,1157.3,False,-8.303,-0.121,False,False,True,1,False
+2020-04-03,Furniture,264.05,755.4,73.495,249.6,False,68.871,1.005,False,True,False,1,False
+2020-05-09,Furniture,350.6,811.0,73.44,339.4,False,92.515,1.35,False,True,False,1,False
+2020-05-10,Furniture,329.6,781.3,73.51,313.9,False,72.421,1.057,False,True,False,1,False
+2020-05-13,Furniture,198.7,780.8,78.28,1791.0,False,-24.417,-0.356,False,False,True,1,False
+2020-05-21,Furniture,195.3,463.0,71.05,45.7,False,-20.803,-0.303,False,False,True,1,False
+2020-05-25,Furniture,297.1,762.9,74.84,280.5,True,71.347,1.041,False,True,False,1,False
+2020-07-06,Furniture,258.05,664.55,74.595,245.15,False,-73.732,-1.075,False,True,False,1,False
+2020-07-08,Furniture,511.0,818.9,73.58,284.95,False,143.662,2.096,False,True,False,1,False
+2020-07-09,Furniture,433.35,789.1,74.12,306.725,False,68.679,1.002,False,True,False,1,False
+2020-08-03,Furniture,225.2,792.7,73.62,1627.95,False,-46.307,-0.675,False,False,True,1,False
+2020-09-13,Furniture,518.7,814.3,73.83,486.9,True,97.3,1.42,False,True,False,1,False
+2020-10-11,Furniture,483.8,782.5,75.45,491.2,True,85.8,1.252,False,True,False,1,False
+2020-10-25,Furniture,356.4,778.5,75.44,321.5,False,-68.043,-0.992,False,True,False,1,False
+2020-10-27,Furniture,475.1,774.8,74.87,487.0,False,81.215,1.185,False,True,False,1,False
+2020-10-28,Furniture,588.8,773.1,75.35,605.5,True,175.44,2.559,False,True,False,1,False
+2020-11-21,Furniture,493.8,830.2,73.05,449.2,True,132.822,1.938,False,True,False,1,False
+2020-11-29,Furniture,318.7,815.9,74.12,3197.0,False,-60.743,-0.886,False,False,True,1,False
+2020-11-30,Furniture,445.7,815.0,74.15,409.7,True,92.768,1.353,False,True,False,1,False
+2020-12-12,Furniture,296.4,833.2,73.5,279.1,False,-69.535,-1.014,False,True,False,1,False
+2020-12-13,Furniture,304.6,839.0,72.32,309.0,False,-158.943,-2.318,False,True,False,1,False
+2020-12-14,Furniture,288.2,838.8,74.3,298.1,False,-200.318,-2.922,False,True,False,1,False
+2020-12-15,Furniture,647.4,840.7,74.4,290.75,False,155.315,2.266,False,True,False,1,False
+2020-12-16,Furniture,1006.6,842.6,74.5,283.4,False,494.455,7.213,True,True,False,2,True
+2020-12-17,Furniture,667.6,837.2,74.895,293.05,False,158.962,2.319,False,True,False,1,False
+2020-12-18,Furniture,328.6,831.8,75.29,302.7,False,-182.379,-2.66,False,True,False,1,False
+2020-12-19,Furniture,296.3,845.4,75.74,271.4,False,-184.278,-2.688,False,True,False,1,False
+2020-12-20,Furniture,295.1,849.7,72.94,303.3,False,-116.657,-1.702,False,True,False,1,False
+2020-12-22,Furniture,408.3,859.65,73.01,416.4,False,75.201,1.097,False,True,False,1,False
+2020-12-23,Furniture,492.8,864.0,73.46,504.0,True,140.998,2.057,False,True,False,1,False
+2021-01-11,Furniture,300.0,947.05,75.465,1978.85,False,17.134,0.25,False,False,True,1,False
+2021-01-12,Furniture,349.9,613.8,74.42,352.3,False,69.4,1.013,False,True,False,1,False
+2021-02-01,Furniture,353.25,875.35,76.715,339.7,False,80.89,1.18,False,True,False,1,False
+2021-02-07,Furniture,355.3,901.2,74.82,339.3,True,64.443,0.94,False,True,False,1,False
+2021-03-21,Furniture,197.9,954.5,74.4,1991.0,False,-15.557,-0.227,False,False,True,1,False
+2021-05-14,Furniture,352.5,1009.2,76.99,341.4,True,78.435,1.144,False,True,False,1,False
+2021-05-17,Furniture,310.2,1009.7,74.94,311.8,True,62.711,0.915,False,True,False,1,False
+2021-05-19,Furniture,206.8,997.7,76.22,210.3,False,-90.424,-1.319,False,True,False,1,False
+2021-05-20,Furniture,214.5,996.2,74.45,197.6,False,-151.617,-2.212,False,True,False,1,False
+2021-05-21,Furniture,275.7,974.8,72.63,260.8,False,-74.829,-1.091,False,True,False,1,False
+2021-05-22,Furniture,525.85,990.35,72.17,225.4,False,171.37,2.5,False,True,False,1,False
+2021-05-23,Furniture,776.0,1005.9,71.71,190.0,False,413.821,6.037,True,True,False,2,True
+2021-05-24,Furniture,220.3,1005.5,75.3,227.3,False,-120.153,-1.753,False,True,False,1,False
+2021-05-25,Furniture,224.467,1005.733,75.413,229.267,False,-126.054,-1.839,False,True,False,1,False
+2021-05-26,Furniture,228.633,1005.967,75.527,231.233,False,-107.826,-1.573,False,True,False,1,False
+2021-05-28,Furniture,340.4,991.0,75.94,346.2,True,90.549,1.321,False,True,False,1,False
+2021-06-03,Furniture,434.8,985.0,72.59,415.9,True,162.665,2.373,False,True,False,1,False
+2021-06-08,Furniture,309.4,1007.2,77.08,307.0,True,57.469,0.838,False,True,False,1,False
+2021-06-12,Furniture,377.5,993.6,71.53,351.5,True,97.079,1.416,False,True,False,1,False
+2021-06-16,Furniture,257.4,987.8,76.1,237.2,False,-88.417,-1.29,False,True,False,1,False
+2021-06-17,Furniture,252.7,779.8,74.645,236.75,False,-136.538,-1.992,False,True,False,1,False
+2021-06-18,Furniture,248.0,571.8,73.19,236.3,False,-140.565,-2.05,False,True,False,1,False
+2021-06-19,Furniture,867.9,569.5,75.3,238.0,False,480.094,7.004,True,True,True,3,True
+2021-06-20,Furniture,565.5,571.1,74.95,253.6,False,172.9,2.522,False,True,False,1,False
+2021-06-21,Furniture,263.1,572.7,74.6,269.2,False,-109.003,-1.59,False,True,False,1,False
+2021-06-22,Furniture,222.3,578.7,72.46,212.9,False,-158.099,-2.306,False,True,False,1,False
+2021-08-09,Furniture,439.0,976.7,76.18,443.5,True,86.597,1.263,False,True,False,1,False
+2021-08-15,Furniture,526.6,976.7,75.99,552.1,True,135.314,1.974,False,True,False,1,False
+2021-08-27,Furniture,408.1,956.6,70.96,422.0,False,-70.122,-1.023,False,True,False,1,False
+2021-08-28,Furniture,360.6,978.4,73.38,358.6,False,-121.778,-1.776,False,True,False,1,False
+2021-08-29,Furniture,346.6,977.4,76.67,315.6,False,-141.164,-2.059,False,True,False,1,False
+2021-08-30,Furniture,1127.2,980.0,76.68,326.4,False,666.818,9.728,True,True,True,3,True
+2021-08-31,Furniture,350.3,982.7,74.51,332.3,False,-115.62,-1.687,False,True,False,1,False
+2021-09-01,Furniture,360.25,971.45,75.27,339.7,False,-130.624,-1.905,False,True,False,1,False
+2021-09-02,Furniture,370.2,960.2,76.03,347.1,False,-118.781,-1.733,False,True,False,1,False
+2021-09-03,Furniture,441.1,962.0,75.8,447.0,True,72.499,1.058,False,True,False,1,False
+2021-09-11,Furniture,588.7,968.6,75.0,618.1,True,165.426,2.413,False,True,False,1,False
+2021-09-28,Furniture,474.6,982.7,72.13,482.9,True,97.273,1.419,False,True,False,1,False
+2021-10-01,Furniture,321.55,919.7,74.9,306.7,False,-72.222,-1.053,False,True,False,1,False
+2021-10-14,Furniture,589.3,999.3,73.15,538.3,True,145.183,2.118,False,True,False,1,False
+2021-10-15,Furniture,517.133,999.6,72.313,483.7,False,79.847,1.165,False,True,False,1,False
+2021-10-17,Furniture,372.8,1000.2,70.64,374.5,False,-75.6,-1.103,False,True,False,1,False
+2021-10-27,Furniture,588.4,1025.4,75.51,545.4,True,174.398,2.544,False,True,False,1,False
+2021-11-21,Furniture,358.7,1020.1,75.24,330.4,False,-85.814,-1.252,False,True,False,1,False
+2021-11-22,Furniture,335.6,1020.3,74.13,317.9,False,-83.589,-1.219,False,True,False,1,False
+2021-11-23,Furniture,309.5,1024.8,73.12,322.6,False,-106.956,-1.56,False,True,False,1,False
+2021-11-24,Furniture,892.6,1018.9,75.74,323.7,False,461.769,6.736,True,True,False,2,True
+2021-11-26,Furniture,360.5,1017.8,75.8,363.3,False,-80.894,-1.18,False,True,False,1,False
+2021-11-27,Furniture,336.4,1036.4,73.93,339.5,False,-110.378,-1.61,False,True,False,1,False
+2021-11-29,Furniture,457.4,1030.2,72.87,467.8,True,126.082,1.839,False,True,False,1,False
+2021-12-01,Furniture,257.8,867.7,75.49,250.9,False,-103.174,-1.505,False,True,False,1,False
+2021-12-21,Furniture,398.1,1042.5,74.8,368.0,True,62.658,0.914,False,True,False,1,False
+2022-01-04,Furniture,402.7,1058.0,73.63,378.0,True,96.201,1.404,False,True,False,1,False
+2022-01-05,Furniture,248.2,1124.4,75.56,241.15,False,-138.324,-2.018,False,True,False,1,False
+2022-01-06,Furniture,319.5,1064.2,72.99,292.5,False,-189.06,-2.758,False,True,False,1,False
+2022-01-07,Furniture,334.4,1057.4,72.75,313.3,False,-181.901,-2.653,False,True,False,1,False
+2022-01-08,Furniture,748.55,1064.2,73.14,296.45,False,236.351,3.448,True,True,False,2,True
+2022-01-09,Furniture,1162.7,1071.0,73.53,279.6,False,637.264,9.296,True,True,True,3,True
+2022-01-10,Furniture,386.6,1079.8,74.76,389.5,True,-111.325,-1.624,False,True,False,1,False
+2022-01-11,Furniture,347.7,1076.95,76.03,341.65,False,-144.106,-2.102,False,True,False,1,False
+2022-01-12,Furniture,308.8,1074.1,77.3,293.8,False,-136.045,-1.984,False,True,False,1,False
+2022-02-05,Furniture,401.5,1087.7,71.6,369.9,True,90.051,1.314,False,True,False,1,False
+2022-02-16,Furniture,379.5,1106.0,73.48,378.7,True,94.183,1.374,False,True,False,1,False
+2022-03-17,Furniture,239.8,1112.2,74.65,251.3,False,-132.881,-1.938,False,True,False,1,False
+2022-03-18,Furniture,224.5,1106.6,75.69,222.2,False,-163.851,-2.39,False,True,False,1,False
+2022-03-19,Furniture,202.8,1118.5,75.15,188.5,False,-186.849,-2.726,False,True,False,1,False
+2022-03-20,Furniture,1221.1,1113.3,76.92,269.4,True,831.886,12.136,True,True,True,3,True
+2022-03-22,Furniture,215.4,1128.7,72.38,214.5,False,-147.156,-2.147,False,True,False,1,False
+2022-03-23,Furniture,208.1,1130.8,74.37,202.6,False,-177.364,-2.587,False,True,False,1,False
+2022-04-30,Furniture,336.4,1164.8,75.09,321.5,True,75.744,1.105,False,True,False,1,False
+2022-07-04,Furniture,360.5,1161.1,74.47,363.9,True,60.44,0.882,False,True,False,1,False
+2022-07-10,Furniture,326.7,1139.3,73.2,307.2,False,-70.957,-1.035,False,True,False,1,False
+2022-07-11,Furniture,306.5,1148.8,76.3,309.1,False,-113.432,-1.655,False,True,False,1,False
+2022-07-12,Furniture,311.1,1152.4,76.4,307.1,False,-118.166,-1.724,False,True,False,1,False
+2022-07-13,Furniture,867.6,1150.4,75.91,298.1,False,415.84,6.066,True,True,False,2,True
+2022-07-14,Furniture,613.9,1145.9,75.81,326.25,False,164.447,2.399,False,True,False,1,False
+2022-07-15,Furniture,360.2,1141.4,75.71,354.4,False,-90.371,-1.318,False,True,False,1,False
+2022-07-16,Furniture,330.6,1150.1,75.89,311.1,False,-128.066,-1.868,False,True,False,1,False
+2022-08-18,Furniture,490.0,1148.0,77.25,473.7,True,105.147,1.534,False,True,False,1,False
+2022-08-19,Furniture,417.7,1151.5,76.21,1890.85,False,31.549,0.46,False,False,True,1,False
+2022-08-20,Furniture,345.4,1155.0,75.17,3308.0,False,-46.463,-0.678,False,False,True,1,False
+2022-09-14,Furniture,523.3,1162.7,75.31,525.0,True,67.383,0.983,False,True,False,1,False
+2022-09-15,Furniture,480.9,1158.433,74.49,1626.667,False,26.054,0.38,False,False,True,1,False
+2022-09-16,Furniture,438.5,1154.167,73.67,2728.333,False,-8.882,-0.129,False,False,True,1,False
+2022-09-17,Furniture,396.1,1149.9,72.85,3830.0,False,-40.185,-0.586,False,False,True,1,False
+2022-09-18,Furniture,399.35,1150.25,73.535,2102.25,False,-22.429,-0.327,False,False,True,1,False
+2022-09-28,Furniture,517.6,1125.4,70.94,486.7,True,96.369,1.406,False,True,True,2,True
+2022-11-01,Furniture,515.2,1142.8,72.08,512.0,True,71.165,1.038,False,True,False,1,False
+2022-11-23,Furniture,494.0,1170.4,75.83,503.7,True,93.976,1.371,False,True,False,1,False
+2022-12-01,Furniture,375.367,1145.633,75.937,375.767,False,-121.829,-1.777,False,True,False,1,False
+2022-12-02,Furniture,377.333,1141.867,76.903,377.633,False,-113.489,-1.655,False,True,False,1,False
+2022-12-03,Furniture,379.3,1138.1,77.87,379.5,False,-111.449,-1.626,False,True,False,1,False
+2022-12-04,Furniture,1192.1,1139.4,72.03,336.7,False,698.586,10.191,True,True,True,3,True
+2022-12-05,Furniture,338.5,1140.1,75.49,306.2,False,-130.508,-1.904,False,True,False,1,False
+2022-12-06,Furniture,361.5,1126.8,73.2,361.4,False,-109.585,-1.598,False,True,False,1,False
+2022-12-07,Furniture,360.7,1129.2,73.24,360.2,False,-130.295,-1.901,False,True,False,1,False
+2022-12-22,Furniture,525.9,1125.6,72.63,519.4,True,147.876,2.157,False,True,False,1,False
+2020-01-28,Groceries,344.4,689.2,108.53,326.8,True,73.666,1.114,False,True,False,1,False
+2020-02-06,Groceries,185.7,623.7,105.9,186.1,False,-84.516,-1.278,False,True,False,1,False
+2020-02-18,Groceries,326.0,481.6,107.95,20.9,True,72.68,1.099,False,True,False,1,False
+2020-03-05,Groceries,393.1,682.6,107.63,370.0,True,74.203,1.122,False,True,False,1,False
+2020-03-15,Groceries,260.0,665.5,105.91,238.0,False,-70.047,-1.059,False,True,False,1,False
+2020-03-16,Groceries,250.8,659.85,106.885,228.1,False,-154.873,-2.342,False,True,False,1,False
+2020-03-17,Groceries,241.6,654.2,107.86,218.2,False,-164.056,-2.481,False,True,False,1,False
+2020-03-18,Groceries,616.15,649.1,108.63,230.45,False,198.005,2.994,False,True,False,1,False
+2020-03-19,Groceries,990.7,644.0,109.4,242.7,False,536.87,8.119,True,True,True,3,True
+2020-03-20,Groceries,297.2,386.5,107.12,308.9,False,-160.291,-2.424,False,True,False,1,False
+2020-03-21,Groceries,277.8,390.1,106.65,289.333,False,-151.841,-2.296,False,True,False,1,False
+2020-03-22,Groceries,258.4,393.7,106.18,269.767,False,-94.407,-1.428,False,True,False,1,False
+2020-04-20,Groceries,208.9,639.0,109.13,217.3,False,-88.83,-1.343,False,True,False,1,False
+2020-04-21,Groceries,274.75,636.5,108.04,267.0,False,-88.177,-1.333,False,True,False,1,False
+2020-04-22,Groceries,340.6,634.0,106.95,316.7,True,-73.673,-1.114,False,True,False,1,False
+2020-04-23,Groceries,752.0,616.0,104.14,263.0,False,286.655,4.335,True,True,True,3,True
+2020-04-24,Groceries,615.5,577.275,105.505,249.525,False,145.223,2.196,False,True,False,1,False
+2020-04-27,Groceries,206.0,461.1,109.6,209.1,False,-84.451,-1.277,False,True,False,1,False
+2020-05-13,Groceries,358.4,627.1,108.73,364.6,True,72.769,1.1,False,True,False,1,False
+2020-05-15,Groceries,409.6,611.1,105.13,394.5,True,87.723,1.327,False,True,False,1,False
+2020-06-03,Groceries,222.1,608.4,106.61,204.5,False,-134.295,-2.031,False,True,False,1,False
+2020-06-04,Groceries,261.9,596.0,108.8,254.2,False,-132.623,-2.006,False,True,False,1,False
+2020-06-05,Groceries,1046.4,605.1,111.98,215.7,False,647.659,9.794,True,True,True,3,True
+2020-06-06,Groceries,264.0,595.9,111.32,274.5,False,-78.191,-1.182,False,True,False,1,False
+2020-06-07,Groceries,208.7,611.2,111.52,192.5,False,-105.866,-1.601,False,True,False,1,False
+2020-06-08,Groceries,189.4,618.35,110.49,174.45,False,-107.23,-1.622,False,True,False,1,False
+2020-06-19,Groceries,372.2,614.2,109.76,378.9,True,88.38,1.337,False,True,False,1,False
+2020-07-07,Groceries,164.7,634.5,104.71,170.8,False,-84.394,-1.276,False,True,False,1,False
+2020-07-09,Groceries,435.0,594.4,110.72,415.5,True,100.484,1.52,False,True,False,1,False
+2020-07-14,Groceries,196.8,618.1,110.22,192.1,False,-80.254,-1.214,False,True,False,1,False
+2020-07-17,Groceries,408.9,592.6,103.89,370.6,True,105.123,1.59,False,True,False,1,False
+2020-08-27,Groceries,350.3,585.1,110.32,355.2,True,70.177,1.061,False,True,False,1,False
+2020-09-07,Groceries,195.4,460.0,103.42,177.4,False,6.556,0.099,False,False,True,1,False
+2020-09-24,Groceries,237.867,605.433,109.097,1684.867,False,-24.542,-0.371,False,False,True,1,False
+2020-09-25,Groceries,266.9,595.2,109.04,2433.0,False,2.83,0.043,False,False,True,1,False
+2020-10-04,Groceries,218.1,353.8,108.73,14.7,False,-3.685,-0.056,False,False,True,1,False
+2020-10-05,Groceries,214.2,354.45,107.81,102.95,False,6.742,0.102,False,False,True,1,False
+2020-10-18,Groceries,387.5,621.8,108.24,400.3,True,136.993,2.072,False,True,False,1,False
+2020-10-23,Groceries,286.3,398.6,104.75,33.1,False,-12.934,-0.196,False,False,True,1,False
+2020-10-27,Groceries,207.6,617.7,109.82,208.0,False,-68.727,-1.039,False,True,False,1,False
+2020-10-30,Groceries,448.8,583.1,105.47,434.3,True,108.873,1.646,False,True,False,1,False
+2020-11-12,Groceries,392.5,579.25,109.65,374.85,False,61.948,0.937,False,True,False,1,False
+2020-12-22,Groceries,353.5,577.2,107.36,352.7,True,63.837,0.965,False,True,False,1,False
+2021-01-06,Groceries,424.4,552.1,105.39,439.8,True,105.152,1.59,False,True,False,1,False
+2021-01-08,Groceries,281.1,614.0,109.465,270.95,False,-80.202,-1.213,False,True,False,1,False
+2021-01-11,Groceries,285.8,678.45,104.325,1422.4,False,15.506,0.234,False,False,True,1,False
+2021-01-19,Groceries,452.5,547.6,107.6,424.9,True,120.18,1.817,False,True,False,1,False
+2021-02-01,Groceries,410.233,566.167,105.173,409.867,False,85.146,1.288,False,True,False,1,False
+2021-02-02,Groceries,455.9,572.8,105.76,450.1,True,119.435,1.806,False,True,False,1,False
+2021-02-21,Groceries,271.1,309.7,110.89,284.6,False,-16.043,-0.243,False,False,True,1,False
+2021-03-26,Groceries,526.6,605.5,106.51,482.2,True,134.568,2.035,False,True,False,1,False
+2021-05-04,Groceries,248.9,676.1,109.96,227.3,False,-88.006,-1.331,False,True,False,1,False
+2021-05-06,Groceries,788.9,701.8,104.25,278.5,False,399.82,6.046,True,True,True,3,True
+2021-05-07,Groceries,269.5,651.15,108.03,266.7,False,-123.398,-1.866,False,True,False,1,False
+2021-05-20,Groceries,415.0,666.1,109.4,397.2,True,69.562,1.052,False,True,False,1,False
+2021-07-11,Groceries,327.0,645.633,107.46,329.867,False,61.007,0.923,False,True,False,1,False
+2021-07-12,Groceries,340.8,654.2,106.64,347.1,True,89.692,1.356,False,True,False,1,False
+2021-07-29,Groceries,463.9,674.1,106.46,477.6,True,127.084,1.922,False,True,False,1,False
+2021-08-06,Groceries,228.4,701.9,106.81,232.9,False,-70.813,-1.071,False,True,False,1,False
+2021-09-28,Groceries,248.7,812.8,107.23,254.4,False,-211.213,-3.194,True,True,False,2,True
+2021-09-29,Groceries,287.5,803.1,108.19,270.8,False,-194.552,-2.942,False,True,False,1,False
+2021-09-30,Groceries,770.6,798.4,107.615,374.5,False,248.505,3.758,True,True,False,2,True
+2021-10-01,Groceries,1253.7,793.7,107.04,478.2,True,721.259,10.907,True,True,True,3,True
+2021-10-02,Groceries,297.6,801.9,106.86,287.5,False,-205.162,-3.103,True,True,False,2,True
+2021-10-03,Groceries,295.0,769.0,107.1,281.94,False,-182.121,-2.754,False,True,False,1,False
+2021-10-04,Groceries,292.4,736.1,107.34,276.38,False,-99.666,-1.507,False,True,False,1,False
+2021-11-03,Groceries,496.9,806.6,105.82,521.1,True,135.619,2.051,False,True,False,1,False
+2021-11-25,Groceries,543.1,800.5,108.61,557.1,True,129.655,1.961,False,True,False,1,False
+2021-12-10,Groceries,500.9,796.3,106.3,490.1,True,81.39,1.231,False,True,False,1,False
+2021-12-31,Groceries,612.6,798.8,108.71,591.3,True,169.209,2.559,False,True,True,2,True
+2022-01-23,Groceries,475.7,785.0,108.35,491.2,True,102.022,1.543,False,True,False,1,False
+2022-01-29,Groceries,517.3,801.1,108.13,534.8,True,126.331,1.91,False,True,False,1,False
+2022-02-10,Groceries,358.25,768.25,108.105,365.0,False,-80.695,-1.22,False,True,False,1,False
+2022-02-11,Groceries,610.6,781.9,108.4,589.0,True,166.966,2.525,False,True,True,2,True
+2022-02-14,Groceries,329.3,793.9,108.14,321.3,False,-83.508,-1.263,False,True,False,1,False
+2022-02-16,Groceries,499.7,789.7,112.03,494.1,True,66.61,1.007,False,True,True,2,True
+2022-02-17,Groceries,400.8,771.7,103.67,397.6,False,-73.095,-1.105,False,True,False,1,False
+2022-03-10,Groceries,282.8,776.1,108.2,268.9,False,-110.241,-1.667,False,True,False,1,False
+2022-03-11,Groceries,338.2,758.0,107.36,328.4,False,-87.573,-1.324,False,True,False,1,False
+2022-03-13,Groceries,555.0,755.5,109.73,555.1,True,170.922,2.585,False,True,False,1,False
+2022-03-14,Groceries,488.4,757.867,109.7,492.0,False,102.977,1.557,False,True,False,1,False
+2022-03-16,Groceries,355.2,762.6,109.64,365.8,False,-76.188,-1.152,False,True,False,1,False
+2022-03-29,Groceries,292.1,761.7,102.69,2826.0,False,-33.692,-0.51,False,False,True,1,False
+2022-05-01,Groceries,459.9,765.2,104.84,469.5,True,96.636,1.461,False,True,False,1,False
+2022-05-02,Groceries,284.6,784.6,107.8,265.5,False,-85.337,-1.291,False,True,False,1,False
+2022-05-05,Groceries,526.4,745.1,106.27,515.1,True,90.812,1.373,False,True,False,1,False
+2022-05-07,Groceries,478.6,764.9,102.46,438.8,True,77.902,1.178,False,True,False,1,False
+2022-05-21,Groceries,491.0,762.5,103.3,496.9,True,128.6,1.945,False,True,False,1,False
+2022-06-05,Groceries,406.15,743.05,106.055,375.4,False,59.679,0.902,False,True,False,1,False
+2022-06-06,Groceries,460.0,753.1,106.06,432.3,True,131.753,1.992,False,True,False,1,False
+2022-06-15,Groceries,334.0,764.4,105.44,3379.0,False,11.329,0.171,False,False,True,1,False
+2022-06-21,Groceries,404.9,781.6,104.39,405.1,True,88.594,1.34,False,True,False,1,False
+2022-07-05,Groceries,397.9,780.5,104.74,364.3,True,91.201,1.379,False,True,False,1,False
+2022-07-11,Groceries,361.45,779.7,108.39,349.8,False,61.256,0.926,False,True,False,1,False
+2022-07-24,Groceries,288.7,799.3,105.69,301.8,False,-94.707,-1.432,False,True,False,1,False
+2022-07-25,Groceries,270.4,803.5,106.71,251.5,False,-90.666,-1.371,False,True,False,1,False
+2022-07-26,Groceries,299.2,800.3,105.06,275.1,False,-71.834,-1.086,False,True,False,1,False
+2022-07-27,Groceries,882.8,799.7,105.96,295.3,False,492.634,7.45,True,True,False,2,True
+2022-07-28,Groceries,320.2,791.9,107.58,301.2,False,-106.995,-1.618,False,True,False,1,False
+2022-07-29,Groceries,348.0,779.0,103.5,354.4,False,-83.327,-1.26,False,True,False,1,False
+2022-08-26,Groceries,337.0,779.6,107.08,318.2,False,-82.763,-1.252,False,True,False,1,False
+2022-08-27,Groceries,310.3,790.35,107.73,301.05,False,-202.576,-3.063,True,True,False,2,True
+2022-08-28,Groceries,283.6,801.1,108.38,283.9,False,-219.964,-3.326,True,True,False,2,True
+2022-08-29,Groceries,746.9,797.6,108.54,270.9,False,257.677,3.897,True,True,False,2,True
+2022-08-30,Groceries,1210.2,794.1,108.7,257.9,False,704.53,10.654,True,True,True,3,True
+2022-08-31,Groceries,439.0,779.3,109.77,400.8,True,-90.745,-1.372,False,True,False,1,False
+2022-09-01,Groceries,353.4,791.15,108.375,338.75,False,-216.559,-3.275,True,True,False,2,True
+2022-09-02,Groceries,345.25,788.025,109.058,335.625,False,-164.827,-2.493,False,True,False,1,False
+2022-09-16,Groceries,530.5,773.4,109.71,516.3,True,121.852,1.843,False,True,False,1,False
+2022-09-17,Groceries,355.3,778.2,109.75,333.5,False,-151.555,-2.292,False,True,False,1,False
+2022-09-18,Groceries,331.1,783.2,109.57,321.95,False,-151.185,-2.286,False,True,False,1,False
+2022-09-19,Groceries,306.9,788.2,109.39,310.4,False,-174.851,-2.644,False,True,False,1,False
+2022-09-20,Groceries,1234.5,787.1,108.86,313.0,False,761.237,11.512,True,True,True,3,True
+2022-09-21,Groceries,335.0,771.2,109.18,321.3,False,-156.345,-2.364,False,True,False,1,False
+2022-09-23,Groceries,364.2,758.0,107.42,360.4,False,-167.727,-2.536,False,True,False,1,False
+2022-10-21,Groceries,400.0,762.2,108.28,4120.0,False,-1.541,-0.023,False,False,True,1,False
+2022-11-01,Groceries,430.8,783.2,109.32,446.6,True,80.958,1.224,False,True,False,1,False
+2022-11-17,Groceries,565.0,769.7,110.44,517.0,True,111.591,1.688,False,True,False,1,False
+2022-11-23,Groceries,552.3,792.2,106.32,567.4,True,125.469,1.897,False,True,False,1,False
+2022-12-08,Groceries,592.3,605.8,105.75,577.9,True,100.265,1.516,False,True,True,2,True
+2020-01-06,Office Supplies,467.7,891.7,89.41,441.1,True,97.336,1.15,False,True,False,1,False
+2020-01-07,Office Supplies,477.6,895.2,88.95,451.9,True,82.284,0.972,False,True,False,1,False
+2020-01-24,Office Supplies,377.0,489.1,89.15,21.1,False,-9.324,-0.11,False,False,True,1,False
+2020-01-31,Office Supplies,532.8,879.7,93.08,507.0,True,127.719,1.508,False,True,False,1,False
+2020-02-09,Office Supplies,428.2,928.7,86.15,393.7,True,65.994,0.779,False,True,False,1,False
+2020-02-18,Office Supplies,338.0,520.2,90.71,18.3,False,3.006,0.035,False,False,True,1,False
+2020-03-26,Office Supplies,428.4,873.6,87.28,410.6,True,73.99,0.874,False,True,False,1,False
+2020-03-31,Office Supplies,263.3,891.8,94.07,250.5,False,-74.694,-0.883,False,True,False,1,False
+2020-04-02,Office Supplies,513.1,867.7,92.08,520.7,True,133.276,1.574,False,True,False,1,False
+2020-04-11,Office Supplies,275.7,885.2,88.17,2655.0,False,-19.917,-0.236,False,False,True,1,False
+2020-05-01,Office Supplies,435.6,884.8,90.7,428.0,True,107.183,1.266,False,True,False,1,False
+2020-05-12,Office Supplies,331.8,923.6,87.48,330.6,True,71.234,0.841,False,True,False,1,False
+2020-07-01,Office Supplies,399.8,900.2,92.05,411.8,True,67.328,0.795,False,True,False,1,False
+2020-07-06,Office Supplies,346.4,890.0,91.33,363.1,True,68.301,0.807,False,True,False,1,False
+2020-07-30,Office Supplies,456.0,877.5,92.01,443.9,True,124.219,1.467,False,True,False,1,False
+2020-08-23,Office Supplies,270.3,450.4,92.07,279.7,False,-8.706,-0.103,False,False,True,1,False
+2020-08-24,Office Supplies,228.6,457.0,90.29,224.1,False,-39.571,-0.468,False,False,True,1,False
+2020-08-25,Office Supplies,271.0,450.3,90.027,271.2,False,-7.573,-0.09,False,False,True,1,False
+2020-09-03,Office Supplies,330.9,855.5,88.97,310.9,False,-79.481,-0.939,False,True,False,1,False
+2020-09-04,Office Supplies,505.0,842.4,89.71,505.0,True,99.619,1.176,False,True,False,1,False
+2020-10-04,Office Supplies,549.533,855.8,90.06,290.8,False,65.413,0.772,False,True,False,1,False
+2020-10-05,Office Supplies,606.817,862.8,90.26,287.4,False,143.151,1.691,False,True,False,1,False
+2020-10-06,Office Supplies,664.1,869.8,90.46,284.0,False,190.134,2.246,False,True,False,1,False
+2020-10-07,Office Supplies,370.4,818.8,86.48,371.9,False,-107.127,-1.266,False,True,False,1,False
+2020-10-08,Office Supplies,349.1,824.6,84.2,346.4,False,-135.798,-1.604,False,True,False,1,False
+2020-11-12,Office Supplies,598.4,798.6,88.83,546.6,True,148.605,1.755,False,True,False,1,False
+2020-11-15,Office Supplies,358.7,819.5,89.26,344.0,False,-250.842,-2.963,False,True,False,1,False
+2020-11-16,Office Supplies,355.6,821.6,84.89,362.7,False,-403.756,-4.77,True,True,False,2,True
+2020-11-18,Office Supplies,1293.0,809.467,88.737,390.033,False,522.356,6.17,True,True,False,2,True
+2020-11-19,Office Supplies,1761.7,803.4,90.66,403.7,False,963.29,11.378,True,True,True,3,True
+2020-11-20,Office Supplies,419.3,805.9,88.98,427.2,False,-379.924,-4.488,True,True,False,2,True
+2020-11-21,Office Supplies,391.3,820.3,90.91,385.05,False,-329.324,-3.89,True,True,False,2,True
+2020-11-22,Office Supplies,363.3,834.7,92.84,342.9,False,-199.82,-2.361,False,True,False,1,False
+2020-12-01,Office Supplies,349.0,838.9,89.74,342.8,False,-73.194,-0.865,False,True,False,1,False
+2020-12-02,Office Supplies,561.2,818.9,91.44,579.7,True,119.071,1.406,False,True,False,1,False
+2020-12-07,Office Supplies,257.5,895.7,88.16,241.0,False,-101.878,-1.204,False,True,False,1,False
+2020-12-15,Office Supplies,511.8,838.9,89.02,525.4,True,99.384,1.174,False,True,False,1,False
+2020-12-21,Office Supplies,469.85,857.35,90.625,443.45,False,70.401,0.831,False,True,False,1,False
+2020-12-22,Office Supplies,566.1,860.1,89.95,512.5,True,150.613,1.779,False,True,False,1,False
+2020-12-31,Office Supplies,588.5,845.2,86.64,581.0,True,134.633,1.59,False,True,False,1,False
+2021-01-10,Office Supplies,514.0,874.4,91.65,504.4,True,84.658,1.0,False,True,False,1,False
+2021-01-11,Office Supplies,490.65,867.25,91.585,488.225,False,71.208,0.841,False,True,False,1,False
+2021-01-30,Office Supplies,401.9,855.0,90.23,387.5,False,-200.559,-2.369,False,True,False,1,False
+2021-01-31,Office Supplies,370.2,870.8,89.26,333.6,False,-221.542,-2.617,False,True,False,1,False
+2021-02-01,Office Supplies,369.8,881.7,92.46,386.1,False,-201.399,-2.379,False,True,False,1,False
+2021-02-02,Office Supplies,1744.5,890.3,85.26,459.4,True,1164.692,13.757,True,True,True,3,True
+2021-02-03,Office Supplies,501.0,912.6,89.27,520.7,True,-89.586,-1.058,False,True,False,1,False
+2021-02-04,Office Supplies,404.0,860.3,93.61,400.0,False,-210.81,-2.49,False,True,False,1,False
+2021-02-05,Office Supplies,386.0,867.333,92.857,388.5,False,-229.502,-2.711,False,True,False,1,False
+2021-02-26,Office Supplies,680.0,872.0,85.55,684.0,True,202.467,2.391,False,True,True,2,True
+2021-02-27,Office Supplies,543.8,898.2,94.09,537.1,True,84.469,0.998,False,True,False,1,False
+2021-02-28,Office Supplies,341.9,914.5,84.97,353.9,False,-85.899,-1.015,False,True,False,1,False
+2021-03-01,Office Supplies,331.0,919.9,92.09,315.2,False,-74.385,-0.879,False,True,False,1,False
+2021-03-17,Office Supplies,458.6,869.1,90.44,478.6,True,84.592,0.999,False,True,False,1,False
+2021-04-29,Office Supplies,346.2,708.725,87.928,345.55,False,-201.224,-2.377,False,True,False,1,False
+2021-04-30,Office Supplies,373.6,626.6,87.72,378.3,False,-178.109,-2.104,False,True,False,1,False
+2021-05-01,Office Supplies,810.4,739.95,89.055,405.9,False,271.712,3.209,True,True,False,2,True
+2021-05-02,Office Supplies,1247.2,853.3,90.39,433.5,False,731.215,8.637,True,True,True,3,True
+2021-05-03,Office Supplies,287.8,940.2,86.86,277.9,False,-210.271,-2.484,False,True,False,1,False
+2021-05-04,Office Supplies,297.2,911.95,90.88,303.25,False,-204.53,-2.416,False,True,False,1,False
+2021-05-05,Office Supplies,356.4,916.6,88.14,334.7,False,-87.581,-1.035,False,True,False,1,False
+2021-05-16,Office Supplies,299.8,948.7,83.25,301.2,False,-1.67,-0.02,False,False,True,1,False
+2021-05-20,Office Supplies,316.2,946.2,86.09,314.2,False,-81.095,-0.958,False,True,False,1,False
+2021-05-21,Office Supplies,573.0,929.7,86.23,582.3,True,176.891,2.089,False,True,True,2,True
+2021-05-22,Office Supplies,481.5,945.4,92.23,436.0,True,105.617,1.247,False,True,False,1,False
+2021-05-28,Office Supplies,341.7,712.9,90.077,114.633,False,-204.281,-2.413,False,True,False,1,False
+2021-05-29,Office Supplies,304.0,830.7,89.623,178.767,False,-233.502,-2.758,False,True,False,1,False
+2021-05-30,Office Supplies,266.3,948.5,89.17,242.9,False,-245.842,-2.904,False,True,False,1,False
+2021-05-31,Office Supplies,1794.0,935.6,89.66,417.4,True,1304.801,15.412,True,True,True,3,True
+2021-06-01,Office Supplies,299.1,930.4,90.71,304.6,False,-204.994,-2.422,False,True,False,1,False
+2021-06-02,Office Supplies,307.4,917.7,89.09,320.5,False,-214.072,-2.529,False,True,False,1,False
+2021-06-03,Office Supplies,333.4,913.7,89.95,347.5,False,-218.481,-2.581,False,True,False,1,False
+2021-06-18,Office Supplies,446.8,913.3,87.97,418.5,True,93.876,1.109,False,True,False,1,False
+2021-07-10,Office Supplies,514.5,855.15,88.155,532.5,True,169.523,2.002,False,True,False,1,False
+2021-07-29,Office Supplies,331.6,837.6,90.04,343.5,False,-81.417,-0.962,False,True,False,1,False
+2021-07-30,Office Supplies,531.2,818.3,94.26,508.2,True,117.369,1.386,False,True,False,1,False
+2021-07-31,Office Supplies,482.45,735.625,91.858,476.475,False,82.064,0.969,False,True,False,1,False
+2021-08-01,Office Supplies,433.7,652.95,89.455,444.75,False,60.508,0.714,False,True,False,1,False
+2021-08-02,Office Supplies,299.6,459.1,92.72,48.5,False,-58.578,-0.692,False,False,True,1,False
+2021-08-10,Office Supplies,404.95,811.25,89.455,418.0,False,62.17,0.734,False,True,False,1,False
+2021-08-11,Office Supplies,369.4,796.9,89.79,3419.0,False,7.999,0.094,False,False,True,1,False
+2021-08-23,Office Supplies,275.6,818.8,90.05,2734.0,False,-31.342,-0.37,False,False,True,1,False
+2021-09-13,Office Supplies,327.1,836.5,90.55,3379.0,False,-9.349,-0.111,False,False,True,1,False
+2021-09-22,Office Supplies,450.3,825.6,91.54,426.4,True,64.264,0.759,False,True,False,1,False
+2021-10-01,Office Supplies,645.0,800.8,87.95,603.9,True,180.483,2.132,False,True,False,1,False
+2021-10-02,Office Supplies,514.45,810.85,87.845,474.75,False,63.126,0.745,False,True,False,1,False
+2021-10-27,Office Supplies,557.0,847.0,87.78,582.4,True,119.042,1.406,False,True,False,1,False
+2022-01-20,Office Supplies,599.5,714.5,88.95,555.1,True,102.905,1.215,False,True,False,1,False
+2022-02-06,Office Supplies,388.1,474.5,89.34,77.5,False,-25.149,-0.297,False,False,True,1,False
+2022-02-16,Office Supplies,383.0,743.0,88.54,364.5,False,-129.572,-1.531,False,True,False,1,False
+2022-02-17,Office Supplies,462.7,725.7,90.53,418.4,False,-124.967,-1.476,False,True,False,1,False
+2022-02-18,Office Supplies,457.8,725.4,90.97,439.8,False,-136.352,-1.611,False,True,False,1,False
+2022-02-19,Office Supplies,1090.8,731.9,87.17,427.5,False,511.412,6.041,True,True,True,3,True
+2022-02-20,Office Supplies,753.0,735.7,88.995,424.75,False,197.494,2.333,False,True,False,1,False
+2022-02-21,Office Supplies,415.2,739.5,90.82,422.0,False,-117.992,-1.394,False,True,False,1,False
+2022-02-22,Office Supplies,403.6,741.6,90.57,421.5,False,-140.33,-1.658,False,True,False,1,False
+2022-02-27,Office Supplies,404.9,722.6,88.24,3992.0,False,6.472,0.076,False,False,True,1,False
+2022-03-04,Office Supplies,624.3,724.0,93.06,646.1,True,158.283,1.869,False,True,True,2,True
+2022-03-23,Office Supplies,451.6,731.6,88.04,442.1,False,60.442,0.714,False,True,False,1,False
+2022-04-06,Office Supplies,553.1,736.3,87.82,509.7,True,131.285,1.551,False,True,False,1,False
+2022-04-08,Office Supplies,415.15,697.75,92.01,426.0,False,-82.559,-0.975,False,True,False,1,False
+2022-04-10,Office Supplies,577.5,740.6,89.1,535.9,True,158.094,1.867,False,True,False,1,False
+2022-04-11,Office Supplies,475.7,737.25,88.505,440.9,False,77.101,0.91,False,True,False,1,False
+2022-05-17,Office Supplies,486.9,715.9,90.85,441.4,True,101.613,1.2,False,True,False,1,False
+2022-05-21,Office Supplies,464.6,706.4,90.66,455.8,True,69.823,0.825,False,True,False,1,False
+2022-08-13,Office Supplies,536.7,704.3,88.04,492.6,True,117.383,1.386,False,True,False,1,False
+2022-08-20,Office Supplies,551.0,714.8,89.22,501.2,True,133.855,1.581,False,True,False,1,False
+2022-10-12,Office Supplies,585.1,744.4,88.878,552.45,False,67.842,0.801,False,True,False,1,False
+2022-10-13,Office Supplies,664.3,748.2,89.83,608.2,True,117.576,1.389,False,True,False,1,False
+2022-11-06,Office Supplies,451.3,736.3,89.07,413.0,False,-70.089,-0.828,False,True,False,1,False
+2022-11-07,Office Supplies,607.5,747.7,88.22,598.1,True,87.515,1.034,False,True,False,1,False
+2022-11-08,Office Supplies,625.2,742.2,89.975,635.3,False,88.706,1.048,False,True,False,1,False
+2022-11-09,Office Supplies,642.9,736.7,91.73,672.5,True,91.049,1.075,False,True,False,1,False
+2022-12-18,Office Supplies,750.8,725.2,91.96,776.7,True,226.701,2.678,False,True,True,2,True
+2022-12-27,Office Supplies,673.0,763.6,90.93,623.7,True,167.392,1.977,False,True,False,1,False
+2020-01-05,Pet Supplies,266.4,815.9,191.48,257.4,False,-88.904,-0.996,False,True,False,1,False
+2020-01-06,Pet Supplies,247.0,827.6,198.77,243.2,False,-91.306,-1.023,False,True,False,1,False
+2020-02-06,Pet Supplies,273.85,827.2,196.255,250.65,False,-102.795,-1.152,False,True,False,1,False
+2020-02-07,Pet Supplies,290.2,796.25,195.2,279.45,False,-113.456,-1.271,False,True,False,1,False
+2020-02-08,Pet Supplies,271.9,829.9,195.19,261.3,False,-87.427,-0.979,False,True,False,1,False
+2020-02-09,Pet Supplies,944.4,825.1,189.99,246.4,False,599.374,6.734,True,True,True,3,True
+2020-02-10,Pet Supplies,247.3,827.4,194.94,241.9,False,-80.199,-0.898,False,True,False,1,False
+2020-02-11,Pet Supplies,236.5,827.9,198.58,214.5,False,-96.599,-1.082,False,True,False,1,False
+2020-02-12,Pet Supplies,256.1,821.6,200.73,236.5,False,-105.784,-1.185,False,True,False,1,False
+2020-03-17,Pet Supplies,309.7,825.1,198.07,300.2,True,80.836,0.911,False,True,False,1,False
+2020-03-23,Pet Supplies,326.6,831.0,193.9,295.2,True,92.722,1.044,False,True,False,1,False
+2020-03-30,Pet Supplies,296.3,833.5,195.61,289.8,True,68.208,0.769,False,True,False,1,False
+2020-04-24,Pet Supplies,409.6,777.3,201.68,371.6,True,108.329,1.219,False,True,False,1,False
+2020-05-19,Pet Supplies,302.8,832.4,203.4,284.8,True,77.479,0.873,False,True,False,1,False
+2020-06-06,Pet Supplies,361.0,823.0,201.63,369.3,True,101.067,1.138,False,True,False,1,False
+2020-06-14,Pet Supplies,381.4,790.6,197.93,353.0,True,131.156,1.476,False,True,False,1,False
+2020-06-26,Pet Supplies,445.5,784.9,193.6,414.3,True,103.551,1.166,False,True,False,1,False
+2020-07-05,Pet Supplies,326.3,803.65,197.625,314.55,False,69.989,0.789,False,True,False,1,False
+2020-09-04,Pet Supplies,269.4,783.2,190.61,276.9,False,-84.142,-0.942,False,True,False,1,False
+2020-09-23,Pet Supplies,424.5,787.1,192.23,388.7,True,70.438,0.794,False,True,False,1,False
+2020-10-05,Pet Supplies,197.6,848.0,193.72,181.9,False,-81.492,-0.913,False,True,False,1,False
+2020-10-16,Pet Supplies,501.4,799.7,199.8,510.3,True,76.844,0.866,False,True,False,1,False
+2020-10-21,Pet Supplies,440.4,824.9,197.49,400.5,True,79.981,0.901,False,True,False,1,False
+2020-11-08,Pet Supplies,330.92,799.44,196.708,321.04,False,-129.227,-1.449,False,True,False,1,False
+2020-11-09,Pet Supplies,310.46,802.42,195.484,296.92,False,-159.003,-1.783,False,True,False,1,False
+2020-11-10,Pet Supplies,290.0,805.4,194.26,272.8,False,-205.986,-2.311,False,True,False,1,False
+2020-11-11,Pet Supplies,1279.2,787.9,196.51,298.5,False,753.798,8.468,True,True,False,2,True
+2020-11-14,Pet Supplies,320.4,786.7,196.92,298.0,False,-201.442,-2.26,False,True,False,1,False
+2020-11-15,Pet Supplies,313.15,780.25,198.175,292.6,False,-82.933,-0.929,False,True,False,1,False
+2020-11-18,Pet Supplies,521.7,759.7,201.23,471.2,True,161.581,1.817,False,True,False,1,False
+2020-11-29,Pet Supplies,469.7,770.0,191.52,434.6,True,125.331,1.41,False,True,False,1,False
+2020-12-12,Pet Supplies,449.7,789.6,198.11,410.4,True,88.237,0.994,False,True,False,1,False
+2021-01-05,Pet Supplies,443.5,832.2,193.72,461.9,True,109.979,1.238,False,True,False,1,False
+2021-01-06,Pet Supplies,278.5,836.5,201.59,251.6,False,-109.555,-1.228,False,True,False,1,False
+2021-01-08,Pet Supplies,554.9,801.85,198.07,319.0,False,123.529,1.39,False,True,False,1,False
+2021-01-09,Pet Supplies,446.6,726.95,196.07,331.825,False,69.88,0.787,False,True,False,1,False
+2021-01-12,Pet Supplies,379.0,824.5,195.47,382.1,False,66.708,0.752,False,True,False,1,False
+2021-01-22,Pet Supplies,435.4,819.0,196.56,397.9,True,69.008,0.778,False,True,False,1,False
+2021-01-24,Pet Supplies,288.95,824.9,199.385,270.9,False,-129.99,-1.457,False,True,False,1,False
+2021-01-25,Pet Supplies,287.6,822.7,195.73,266.4,False,-105.442,-1.181,False,True,False,1,False
+2021-01-26,Pet Supplies,245.7,836.1,195.79,244.8,False,-133.178,-1.493,False,True,False,1,False
+2021-01-27,Pet Supplies,1134.3,818.1,204.17,317.9,False,717.266,8.058,True,True,True,3,True
+2021-01-28,Pet Supplies,303.6,809.7,196.64,300.8,False,-135.666,-1.521,False,True,False,1,False
+2021-01-29,Pet Supplies,312.05,807.85,192.89,310.4,False,-151.271,-1.696,False,True,False,1,False
+2021-01-30,Pet Supplies,320.5,806.0,189.14,320.0,False,-102.142,-1.144,False,True,False,1,False
+2021-02-10,Pet Supplies,377.9,644.6,194.61,372.2,False,72.916,0.822,False,True,False,1,False
+2021-02-15,Pet Supplies,251.7,544.5,193.71,28.7,False,-50.328,-0.563,False,False,True,1,False
+2021-02-17,Pet Supplies,439.6,541.2,196.49,438.9,True,83.866,0.945,False,True,False,1,False
+2021-02-19,Pet Supplies,326.7,806.8,197.29,309.3,False,-108.578,-1.217,False,True,False,1,False
+2021-02-21,Pet Supplies,422.6,808.1,198.02,398.4,True,83.967,0.946,False,True,False,1,False
+2021-03-18,Pet Supplies,396.2,832.4,197.41,367.4,True,83.898,0.945,False,True,False,1,False
+2021-03-21,Pet Supplies,262.2,847.9,192.52,2737.0,False,-19.39,-0.215,False,False,True,1,False
+2021-03-29,Pet Supplies,336.4,867.9,194.1,326.1,True,82.444,0.929,False,True,False,1,False
+2021-04-06,Pet Supplies,220.4,877.6,200.74,2285.0,False,-17.521,-0.194,False,False,True,1,False
+2021-04-11,Pet Supplies,411.0,810.5,198.0,4302.0,False,110.01,1.238,False,True,True,2,True
+2021-04-30,Pet Supplies,469.2,846.3,195.52,456.9,True,118.579,1.334,False,True,False,1,False
+2021-06-18,Pet Supplies,298.5,817.1,200.62,2955.0,False,-32.242,-0.359,False,False,True,1,False
+2021-07-21,Pet Supplies,431.4,786.5,196.4,441.2,True,74.909,0.844,False,True,False,1,False
+2021-07-29,Pet Supplies,472.6,776.1,192.53,442.2,True,106.655,1.2,False,True,False,1,False
+2021-08-12,Pet Supplies,491.8,791.7,194.78,449.4,True,123.77,1.393,False,True,False,1,False
+2021-09-16,Pet Supplies,458.55,785.95,193.45,3048.05,False,44.413,0.501,False,False,True,1,False
+2021-09-17,Pet Supplies,573.3,778.8,194.29,5764.0,True,136.522,1.536,False,True,True,2,True
+2021-09-27,Pet Supplies,406.2,473.8,195.26,83.1,True,54.472,0.614,False,False,True,1,False
+2021-10-03,Pet Supplies,350.5,474.2,190.96,32.6,False,-11.279,-0.124,False,False,True,1,False
+2021-10-18,Pet Supplies,479.2,840.9,197.81,490.1,True,130.844,1.472,False,True,False,1,False
+2021-10-26,Pet Supplies,394.52,817.3,199.552,3088.52,False,29.199,0.331,False,False,True,1,False
+2021-10-27,Pet Supplies,398.3,815.1,199.7,3774.0,False,2.221,0.028,False,False,True,1,False
+2021-12-03,Pet Supplies,560.2,817.7,200.12,565.8,True,144.294,1.623,False,True,False,1,False
+2022-01-20,Pet Supplies,488.3,825.8,200.67,480.1,True,85.698,0.965,False,True,False,1,False
+2022-01-24,Pet Supplies,295.9,848.9,195.64,2968.0,False,-3.52,-0.037,False,False,True,1,False
+2022-02-09,Pet Supplies,468.8,723.9,194.31,474.5,True,98.616,1.11,False,True,False,1,False
+2022-02-15,Pet Supplies,425.9,854.3,193.95,443.4,True,73.701,0.83,False,True,False,1,False
+2022-02-17,Pet Supplies,559.5,820.3,198.21,539.6,True,159.913,1.799,False,True,False,1,False
+2022-03-03,Pet Supplies,415.3,810.5,197.5,390.0,True,75.434,0.85,False,True,False,1,False
+2022-03-28,Pet Supplies,367.4,853.7,189.25,347.7,True,79.744,0.898,False,True,False,1,False
+2022-04-09,Pet Supplies,415.2,850.6,193.19,376.3,True,101.194,1.139,False,True,False,1,False
+2022-04-19,Pet Supplies,375.5,656.2,191.29,350.0,True,105.594,1.189,False,True,False,1,False
+2022-05-07,Pet Supplies,295.6,470.2,197.9,57.4,False,-5.263,-0.056,False,False,True,1,False
+2022-06-01,Pet Supplies,387.2,815.1,198.42,369.6,True,74.209,0.836,False,True,False,1,False
+2022-06-03,Pet Supplies,305.1,834.15,194.5,275.3,False,-87.892,-0.984,False,True,False,1,False
+2022-06-06,Pet Supplies,448.3,834.6,198.23,455.5,True,111.672,1.257,False,True,False,1,False
+2022-06-19,Pet Supplies,410.6,821.3,203.95,393.2,True,73.853,0.832,False,True,False,1,False
+2022-06-21,Pet Supplies,429.6,805.1,202.35,395.8,True,104.708,1.179,False,True,False,1,False
+2022-07-06,Pet Supplies,504.6,790.5,205.07,476.1,True,88.938,1.002,False,True,False,1,False
+2022-07-07,Pet Supplies,559.8,789.1,197.37,507.9,True,115.927,1.305,False,True,False,1,False
+2022-07-08,Pet Supplies,364.3,787.6,201.4,371.0,False,-95.313,-1.068,False,True,False,1,False
+2022-07-22,Pet Supplies,537.1,395.7,203.2,26.9,True,108.983,1.227,False,True,True,2,True
+2022-07-23,Pet Supplies,420.3,402.9,202.315,154.85,False,35.105,0.397,False,False,True,1,False
+2022-07-28,Pet Supplies,400.2,513.1,193.82,31.7,False,3.755,0.045,False,False,True,1,False
+2022-08-01,Pet Supplies,476.9,765.3,195.3,434.8,True,115.43,1.299,False,True,False,1,False
+2022-08-08,Pet Supplies,514.1,748.4,200.03,496.9,True,174.058,1.957,False,True,False,1,False
+2022-08-22,Pet Supplies,487.3,749.9,195.47,446.2,True,139.38,1.568,False,True,False,1,False
+2022-08-27,Pet Supplies,531.8,734.6,200.41,549.9,True,118.387,1.332,False,True,False,1,False
+2022-09-13,Pet Supplies,339.1,734.7,193.36,308.7,False,-161.128,-1.807,False,True,False,1,False
+2022-09-14,Pet Supplies,352.4,736.7,199.81,344.5,False,-183.969,-2.063,False,True,False,1,False
+2022-09-15,Pet Supplies,409.5,721.7,193.72,375.9,False,-157.502,-1.766,False,True,False,1,False
+2022-09-16,Pet Supplies,1520.3,727.8,192.93,418.7,False,911.601,10.24,True,True,True,3,True
+2022-09-17,Pet Supplies,394.2,737.8,197.64,357.8,False,-172.335,-1.933,False,True,False,1,False
+2022-09-18,Pet Supplies,434.6,735.85,199.005,427.2,False,-119.504,-1.339,False,True,False,1,False
+2022-10-05,Pet Supplies,522.2,720.8,196.24,520.3,True,95.666,1.077,False,True,False,1,False
+2022-10-14,Pet Supplies,448.8,720.9,187.04,438.7,False,-18.735,-0.208,False,False,True,1,False
+2022-10-15,Pet Supplies,508.6,735.5,194.18,484.0,True,84.712,0.954,False,True,False,1,False
+2022-10-24,Pet Supplies,469.4,740.0,196.85,436.6,True,84.537,0.952,False,True,False,1,False
+2022-10-31,Pet Supplies,406.033,759.133,195.973,388.6,False,-139.759,-1.567,False,True,False,1,False
+2022-11-01,Pet Supplies,406.5,786.8,196.15,382.8,False,-473.078,-5.31,True,True,False,2,True
+2022-11-02,Pet Supplies,409.9,716.1,192.21,409.5,False,-506.005,-5.68,True,True,False,2,True
+2022-11-03,Pet Supplies,1581.4,706.6,195.54,539.7,False,648.422,7.285,True,True,True,3,True
+2022-11-04,Pet Supplies,2752.9,697.1,198.87,669.9,True,1802.287,20.243,True,True,True,3,True
+2022-11-05,Pet Supplies,422.5,704.6,200.4,432.4,False,-473.963,-5.32,True,True,False,2,True
+2022-11-06,Pet Supplies,381.7,716.4,201.54,385.4,False,-495.019,-5.557,True,True,False,2,True
+2022-11-07,Pet Supplies,363.6,725.35,199.645,355.05,False,-329.963,-3.703,True,True,False,2,True
+2020-01-15,Sporting Goods,707.533,1425.067,130.877,683.567,False,123.693,1.146,False,True,False,1,False
+2020-01-16,Sporting Goods,826.9,1418.0,130.74,800.8,True,227.872,2.111,False,True,False,1,False
+2020-02-11,Sporting Goods,602.1,1437.0,132.56,624.6,True,99.067,0.918,False,True,False,1,False
+2020-03-20,Sporting Goods,898.4,1393.5,122.93,885.4,True,299.382,2.773,False,True,False,1,False
+2020-03-22,Sporting Goods,451.8,1425.2,130.36,438.8,False,-121.343,-1.124,False,True,False,1,False
+2020-03-27,Sporting Goods,792.5,1373.0,128.39,812.5,True,126.524,1.172,False,True,False,1,False
+2020-04-17,Sporting Goods,896.7,1347.3,131.89,858.3,True,259.91,2.407,False,True,False,1,False
+2020-05-01,Sporting Goods,458.9,1097.3,128.52,430.6,False,-101.433,-0.939,False,True,False,1,False
+2020-08-06,Sporting Goods,680.2,1338.3,122.48,652.4,True,148.55,1.376,False,True,False,1,False
+2020-09-01,Sporting Goods,475.8,1371.1,128.08,4587.0,False,38.331,0.355,False,False,True,1,False
+2020-09-11,Sporting Goods,831.3,1339.3,129.13,862.6,True,282.582,2.617,False,True,False,1,False
+2020-09-17,Sporting Goods,452.5,1394.9,127.17,454.4,False,-133.203,-1.234,False,True,False,1,False
+2020-09-18,Sporting Goods,784.0,1363.9,128.26,709.1,True,165.346,1.532,False,True,False,1,False
+2020-09-19,Sporting Goods,694.525,1371.525,128.71,632.025,False,103.103,0.955,False,True,False,1,False
+2020-09-27,Sporting Goods,697.4,1378.4,130.36,656.7,True,219.911,2.037,False,True,False,1,False
+2020-10-11,Sporting Goods,466.467,1389.7,124.28,3015.1,False,14.702,0.136,False,False,True,1,False
+2020-10-12,Sporting Goods,454.4,1395.7,123.45,4276.0,False,30.811,0.286,False,False,True,1,False
+2020-10-28,Sporting Goods,787.7,1393.1,125.76,778.8,True,252.266,2.337,False,True,False,1,False
+2020-11-13,Sporting Goods,663.2,1392.1,126.08,692.0,True,106.537,0.987,False,True,False,1,False
+2021-01-09,Sporting Goods,502.6,1402.6,123.63,4798.0,False,-29.393,-0.272,False,False,True,1,False
+2021-01-25,Sporting Goods,447.6,1424.8,127.62,459.1,False,-169.854,-1.573,False,True,False,1,False
+2021-01-26,Sporting Goods,471.4,1407.2,132.04,492.8,False,-154.683,-1.432,False,True,False,1,False
+2021-01-27,Sporting Goods,1512.4,1390.1,128.86,500.3,False,850.181,7.874,True,True,False,2,True
+2021-01-28,Sporting Goods,576.6,1371.3,132.28,544.3,False,-106.65,-0.988,False,True,False,1,False
+2021-01-29,Sporting Goods,580.9,1367.9,132.9,582.8,False,-121.618,-1.126,False,True,False,1,False
+2021-01-30,Sporting Goods,494.3,1391.2,126.87,455.9,False,-198.943,-1.842,False,True,False,1,False
+2021-02-09,Sporting Goods,583.4,1378.75,126.99,585.2,False,92.299,0.855,False,True,False,1,False
+2021-03-16,Sporting Goods,703.2,1384.5,128.26,640.9,True,139.824,1.295,False,True,False,1,False
+2021-04-01,Sporting Goods,861.3,1314.6,129.32,879.0,True,212.248,1.966,False,True,False,1,False
+2021-04-28,Sporting Goods,702.0,1347.0,129.92,721.6,True,112.752,1.045,False,True,False,1,False
+2021-05-15,Sporting Goods,759.1,1333.0,128.14,780.5,True,98.285,0.911,False,True,False,1,False
+2021-05-29,Sporting Goods,731.6,1313.7,124.06,669.0,True,127.857,1.184,False,True,False,1,False
+2021-05-31,Sporting Goods,488.7,1324.0,129.87,471.5,False,-103.911,-0.962,False,True,False,1,False
+2021-06-02,Sporting Goods,531.5,1315.6,124.96,5156.0,False,-66.562,-0.616,False,False,True,1,False
+2021-06-03,Sporting Goods,948.1,1294.9,129.96,860.9,True,329.393,3.051,True,True,False,2,True
+2021-06-16,Sporting Goods,822.4,1325.2,128.5,754.2,True,217.266,2.013,False,True,False,1,False
+2021-06-22,Sporting Goods,660.0,1360.1,128.27,616.0,True,140.56,1.302,False,True,False,1,False
+2021-07-09,Sporting Goods,591.9,1303.5,125.37,5682.0,False,3.767,0.035,False,False,True,1,False
+2021-07-10,Sporting Goods,557.567,1315.633,125.777,3942.533,False,-10.463,-0.097,False,False,True,1,False
+2021-07-24,Sporting Goods,506.9,1331.5,128.08,508.8,False,-102.358,-0.948,False,True,False,1,False
+2021-07-26,Sporting Goods,677.567,1336.7,126.14,678.867,False,132.341,1.226,False,True,False,1,False
+2021-07-27,Sporting Goods,762.9,1339.3,125.17,763.9,True,204.531,1.895,False,True,False,1,False
+2021-07-28,Sporting Goods,461.9,1352.5,130.17,439.8,False,-140.876,-1.305,False,True,False,1,False
+2021-08-09,Sporting Goods,512.975,1352.075,128.54,507.65,False,-140.335,-1.3,False,True,False,1,False
+2021-08-10,Sporting Goods,494.55,1370.25,127.65,476.5,False,-338.533,-3.135,True,True,False,2,True
+2021-08-11,Sporting Goods,916.238,1363.212,127.818,486.375,False,-189.982,-1.759,False,True,False,1,False
+2021-08-12,Sporting Goods,1337.925,1356.175,127.985,496.25,False,212.975,1.973,False,True,False,1,False
+2021-08-13,Sporting Goods,1759.613,1349.137,128.152,506.125,False,619.867,5.741,True,True,True,3,True
+2021-08-14,Sporting Goods,2181.3,1342.1,128.32,516.0,False,1063.174,9.847,True,True,True,3,True
+2021-08-15,Sporting Goods,507.6,1335.4,127.74,462.1,False,-506.737,-4.693,True,True,False,2,True
+2021-08-16,Sporting Goods,492.567,1339.433,127.883,454.967,False,-383.532,-3.552,True,True,False,2,True
+2021-08-17,Sporting Goods,477.533,1343.467,128.027,447.833,False,-224.05,-2.075,False,True,False,1,False
+2021-08-30,Sporting Goods,670.4,1376.1,126.74,605.9,True,178.96,1.658,False,True,False,1,False
+2021-09-06,Sporting Goods,599.0,1309.9,126.29,548.5,False,89.71,0.831,False,True,False,1,False
+2021-09-13,Sporting Goods,725.5,1395.1,128.82,661.6,True,129.71,1.202,False,True,False,1,False
+2021-09-14,Sporting Goods,684.0,1405.9,123.29,704.9,True,117.153,1.085,False,True,False,1,False
+2021-09-15,Sporting Goods,466.4,1398.6,124.64,469.1,False,-102.196,-0.946,False,True,False,1,False
+2021-09-25,Sporting Goods,524.4,1386.0,127.21,4920.0,False,27.614,0.256,False,False,True,1,False
+2021-10-12,Sporting Goods,708.2,1447.7,123.71,722.7,True,181.291,1.679,False,True,False,1,False
+2021-10-14,Sporting Goods,574.667,1407.633,124.917,577.5,False,-284.84,-2.638,False,True,False,1,False
+2021-10-15,Sporting Goods,507.9,1387.6,125.52,504.9,False,-349.54,-3.237,True,True,False,2,True
+2021-10-16,Sporting Goods,1116.95,1397.6,128.155,496.15,False,312.295,2.893,False,True,False,1,False
+2021-10-17,Sporting Goods,1726.0,1407.6,130.79,487.4,False,979.437,9.072,True,True,False,2,True
+2021-10-18,Sporting Goods,438.5,1407.9,127.06,433.3,False,-283.547,-2.626,False,True,False,1,False
+2021-10-19,Sporting Goods,473.033,1397.167,127.497,476.933,False,-261.314,-2.42,False,True,False,1,False
+2021-10-20,Sporting Goods,507.567,1386.433,127.933,520.567,False,-179.924,-1.666,False,True,False,1,False
+2021-11-02,Sporting Goods,589.1,1107.25,128.645,546.65,False,95.517,0.885,False,True,False,1,False
+2021-11-22,Sporting Goods,768.0,1442.5,128.38,737.2,True,265.831,2.462,False,True,False,1,False
+2021-12-24,Sporting Goods,506.45,792.15,129.365,289.1,False,-33.99,-0.315,False,False,True,1,False
+2021-12-25,Sporting Goods,469.8,797.4,129.8,35.7,False,-53.308,-0.494,False,False,True,1,False
+2022-01-20,Sporting Goods,556.5,1403.6,129.39,5495.0,False,-1.835,-0.017,False,False,True,1,False
+2022-01-27,Sporting Goods,931.3,1072.7,124.71,870.3,True,301.372,2.791,False,True,True,2,True
+2022-02-07,Sporting Goods,692.0,1404.2,130.19,687.5,True,165.774,1.536,False,True,False,1,False
+2022-03-26,Sporting Goods,858.3,1399.5,131.14,836.3,True,198.492,1.839,False,True,False,1,False
+2022-05-01,Sporting Goods,572.3,1413.6,126.55,575.3,False,-178.421,-1.652,False,True,False,1,False
+2022-05-02,Sporting Goods,566.6,1425.2,125.6,535.6,False,-237.172,-2.196,False,True,False,1,False
+2022-05-03,Sporting Goods,982.675,1422.075,127.19,565.05,False,142.167,1.317,False,True,False,1,False
+2022-05-04,Sporting Goods,1398.75,1418.95,128.78,594.5,False,522.634,4.841,True,True,False,2,True
+2022-05-05,Sporting Goods,1133.2,1419.6,129.583,580.833,False,237.24,2.197,False,True,False,1,False
+2022-05-07,Sporting Goods,602.1,1420.9,131.19,553.5,False,-221.001,-2.047,False,True,False,1,False
+2022-05-08,Sporting Goods,556.3,1437.4,126.93,549.8,False,-113.939,-1.055,False,True,False,1,False
+2022-05-28,Sporting Goods,806.1,1416.3,129.42,783.4,True,179.428,1.662,False,True,False,1,False
+2022-07-12,Sporting Goods,721.9,1378.8,126.03,717.8,True,193.167,1.789,False,True,False,1,False
+2022-07-22,Sporting Goods,601.9,1375.4,130.65,584.8,False,-141.047,-1.306,False,True,False,1,False
+2022-07-23,Sporting Goods,610.7,1383.6,129.47,568.7,False,-105.758,-0.979,False,True,False,1,False
+2022-07-24,Sporting Goods,571.7,1398.1,133.08,533.0,False,-103.218,-0.956,False,True,False,1,False
+2022-07-25,Sporting Goods,1463.2,1410.0,122.46,569.6,False,773.617,7.165,True,True,True,3,True
+2022-07-26,Sporting Goods,492.3,1423.6,128.73,461.2,False,-195.826,-1.814,False,True,False,1,False
+2022-07-27,Sporting Goods,528.9,1412.2,124.8,539.6,False,-189.591,-1.756,False,True,False,1,False
+2022-07-28,Sporting Goods,816.1,997.2,125.82,770.4,True,83.136,0.77,False,False,True,1,False
+2022-07-30,Sporting Goods,573.6,1003.1,132.77,29.1,False,-24.672,-0.228,False,False,True,1,False
+2022-08-16,Sporting Goods,646.6,1450.2,128.54,647.25,False,-111.083,-1.029,False,True,False,1,False
+2022-08-18,Sporting Goods,598.2,1426.7,123.86,574.0,False,-311.621,-2.886,False,True,False,1,False
+2022-08-19,Sporting Goods,1949.4,1432.8,130.13,700.7,True,1024.753,9.491,True,True,True,3,True
+2022-08-20,Sporting Goods,1222.1,1440.8,127.335,581.05,False,336.199,3.114,True,True,False,2,True
+2022-08-21,Sporting Goods,494.8,1448.8,124.54,461.4,False,-327.439,-3.032,True,True,False,2,True
+2022-08-22,Sporting Goods,474.2,1461.5,131.55,428.5,False,-348.747,-3.23,True,True,False,2,True
+2022-08-23,Sporting Goods,509.7,1458.2,127.88,490.9,False,-111.047,-1.028,False,True,False,1,False
+2022-08-25,Sporting Goods,742.2,1442.9,126.44,670.2,True,148.743,1.378,False,True,False,1,False
+2022-08-26,Sporting Goods,516.4,1464.5,128.77,510.9,False,-102.611,-0.95,False,True,False,1,False
+2022-09-22,Sporting Goods,581.9,1429.8,126.51,570.9,False,-184.007,-1.704,False,True,False,1,False
+2022-09-23,Sporting Goods,552.4,1436.1,124.7,534.2,False,-230.518,-2.135,False,True,False,1,False
+2022-09-24,Sporting Goods,524.9,1441.1,129.93,532.2,False,-243.986,-2.26,False,True,False,1,False
+2022-09-25,Sporting Goods,2057.6,1451.2,125.09,469.6,False,1324.232,12.265,True,True,True,3,True
+2022-09-26,Sporting Goods,476.1,1460.8,127.73,451.0,False,-236.961,-2.194,False,True,False,1,False
+2022-09-27,Sporting Goods,513.3,1453.0,125.75,508.5,False,-266.937,-2.472,False,True,False,1,False
+2022-09-28,Sporting Goods,546.05,1442.2,127.57,531.5,False,-399.33,-3.698,True,True,False,2,True
+2022-09-29,Sporting Goods,578.8,1431.4,129.39,554.5,False,-168.553,-1.561,False,True,False,1,False
+2022-09-30,Sporting Goods,1005.025,1433.325,129.53,605.7,False,237.56,2.2,False,True,False,1,False
+2022-10-01,Sporting Goods,1431.25,1435.25,129.67,656.9,False,689.26,6.384,True,True,False,2,True
+2022-10-02,Sporting Goods,516.5,1451.9,128.04,534.4,False,-183.321,-1.698,False,True,False,1,False
+2022-10-03,Sporting Goods,492.9,1458.95,128.66,486.55,False,-186.944,-1.731,False,True,False,1,False
+2022-10-04,Sporting Goods,469.3,1466.0,129.28,438.7,False,-146.062,-1.353,False,True,False,1,False
+2022-11-11,Sporting Goods,510.7,1475.9,129.2,460.9,False,-104.387,-0.967,False,True,False,1,False
+2022-11-12,Sporting Goods,875.1,1457.4,128.96,918.1,True,288.421,2.672,False,True,False,1,False
+2022-11-25,Sporting Goods,846.0,1465.2,129.05,847.7,True,235.824,2.184,False,True,False,1,False
+2022-11-29,Sporting Goods,429.3,1524.1,129.26,393.6,False,-114.326,-1.059,False,True,False,1,False
+2022-12-01,Sporting Goods,844.3,1495.6,123.35,771.7,True,230.55,2.136,False,True,False,1,False
+2022-12-22,Sporting Goods,561.5,1182.35,127.34,2908.4,False,-2.992,-0.028,False,False,True,1,False
+2022-12-23,Sporting Goods,561.2,867.7,125.14,5233.0,False,-23.318,-0.216,False,False,True,1,False
+2022-12-25,Sporting Goods,500.4,876.5,128.48,27.3,False,-16.125,-0.149,False,False,True,1,False
+2020-01-15,Toys,231.0,801.6,237.11,211.85,False,-65.535,-0.973,False,True,False,1,False
+2020-01-18,Toys,666.9,820.0,235.86,195.9,False,380.372,5.648,True,True,True,3,True
+2020-01-19,Toys,204.4,819.2,241.6,210.2,False,-81.285,-1.206,False,True,False,1,False
+2020-01-20,Toys,211.2,817.5,242.495,205.3,False,-88.83,-1.318,False,True,False,1,False
+2020-01-21,Toys,218.0,815.8,243.39,200.4,False,-79.402,-1.178,False,True,False,1,False
+2020-01-23,Toys,333.3,819.9,241.61,339.1,True,91.017,1.352,False,True,False,1,False
+2020-01-27,Toys,316.6,826.9,234.57,292.1,True,70.27,1.044,False,True,False,1,False
+2020-01-31,Toys,240.9,403.7,237.4,45.7,False,-14.266,-0.211,False,False,True,1,False
+2020-02-01,Toys,233.4,405.3,248.77,216.9,False,-4.821,-0.071,False,False,True,1,False
+2020-04-29,Toys,334.4,739.7,238.8,313.3,True,55.051,0.818,False,True,False,1,False
+2020-06-10,Toys,434.8,683.4,231.3,453.5,True,123.344,1.832,False,True,False,1,False
+2020-06-15,Toys,437.1,672.6,243.09,437.4,True,109.534,1.627,False,True,False,1,False
+2020-06-26,Toys,449.0,654.9,229.53,411.1,True,96.47,1.433,False,True,False,1,False
+2020-06-28,Toys,399.6,661.4,233.02,388.4,True,62.6,0.93,False,True,False,1,False
+2020-07-10,Toys,510.3,646.8,236.4,464.3,True,177.484,2.636,False,True,False,1,False
+2020-08-17,Toys,489.3,645.3,241.4,443.9,True,126.334,1.876,False,True,False,1,False
+2020-08-18,Toys,443.55,646.15,232.875,404.7,False,78.734,1.169,False,True,False,1,False
+2020-08-20,Toys,299.5,649.2,229.91,281.2,False,-77.626,-1.152,False,True,False,1,False
+2020-08-24,Toys,265.8,643.0,236.82,257.6,False,-77.587,-1.151,False,True,False,1,False
+2020-08-26,Toys,464.0,633.7,233.28,462.4,True,108.465,1.611,False,True,False,1,False
+2020-08-27,Toys,406.65,634.7,240.76,393.75,False,54.803,0.814,False,True,False,1,False
+2020-09-13,Toys,414.8,635.2,231.1,424.5,True,81.643,1.213,False,True,False,1,False
+2020-09-17,Toys,445.3,621.8,232.64,455.0,True,101.317,1.505,False,True,False,1,False
+2020-10-31,Toys,459.1,628.8,247.88,416.6,True,90.018,1.337,False,True,False,1,False
+2020-11-01,Toys,424.48,624.7,245.344,388.62,False,55.045,0.818,False,True,False,1,False
+2020-11-13,Toys,455.8,600.7,244.12,421.5,True,128.727,1.912,False,True,False,1,False
+2020-11-18,Toys,409.7,606.2,235.24,378.1,True,94.98,1.411,False,True,False,1,False
+2020-12-17,Toys,385.1,630.8,238.81,375.2,True,100.06,1.486,False,True,False,1,False
+2020-12-22,Toys,402.7,638.6,233.39,404.0,True,113.848,1.691,False,True,False,1,False
+2020-12-26,Toys,233.4,639.2,239.59,244.2,False,-89.714,-1.331,False,True,False,1,False
+2020-12-27,Toys,314.4,636.3,241.71,287.8,True,-92.65,-1.375,False,True,False,1,False
+2020-12-28,Toys,262.9,630.4,239.15,241.1,False,-149.423,-2.218,False,True,False,1,False
+2020-12-29,Toys,607.05,630.95,237.945,237.3,False,194.06,2.882,False,True,False,1,False
+2020-12-30,Toys,951.2,631.5,236.74,233.5,False,523.694,7.776,True,True,False,2,True
+2020-12-31,Toys,282.7,620.6,243.64,295.3,False,-134.261,-1.993,False,True,False,1,False
+2021-01-01,Toys,271.867,622.967,240.707,274.9,False,-150.344,-2.232,False,True,False,1,False
+2021-01-02,Toys,261.033,625.333,237.773,254.5,False,-101.37,-1.505,False,True,False,1,False
+2021-01-14,Toys,415.9,324.8,236.34,389.2,True,120.11,1.784,False,True,False,1,False
+2021-01-15,Toys,273.8,328.5,240.15,35.4,False,-24.659,-0.366,False,False,True,1,False
+2021-01-16,Toys,275.7,324.7,234.85,268.5,False,-134.499,-1.996,False,True,False,1,False
+2021-01-17,Toys,238.2,331.1,238.83,241.3,False,-154.285,-2.29,False,True,False,1,False
+2021-01-18,Toys,236.4,631.8,243.81,246.4,False,-134.273,-1.993,False,True,False,1,False
+2021-01-19,Toys,1120.3,629.9,243.3,256.6,False,752.384,11.171,True,True,True,3,True
+2021-01-20,Toys,239.2,641.1,241.78,229.5,False,-137.242,-2.037,False,True,False,1,False
+2021-01-21,Toys,245.8,635.05,240.185,229.15,False,-129.354,-1.92,False,True,False,1,False
+2021-01-22,Toys,252.4,629.0,238.59,228.8,False,-127.159,-1.887,False,True,False,1,False
+2021-01-23,Toys,261.4,635.9,237.89,2585.0,False,-39.556,-0.587,False,False,True,1,False
+2021-01-25,Toys,231.4,642.2,228.32,211.3,False,-73.402,-1.089,False,True,False,1,False
+2021-01-26,Toys,659.1,636.0,234.4,242.7,False,337.127,5.006,True,True,False,2,True
+2021-01-27,Toys,261.5,618.9,238.43,271.7,False,-76.592,-1.137,False,True,False,1,False
+2021-01-28,Toys,263.7,622.4,237.0,263.7,False,-71.761,-1.065,False,True,False,1,False
+2021-02-25,Toys,355.4,639.0,234.05,358.2,True,60.796,0.903,False,True,False,1,False
+2021-04-10,Toys,367.8,611.9,230.87,377.4,True,78.722,1.169,False,True,False,1,False
+2021-04-30,Toys,470.5,615.0,236.16,440.8,True,155.391,2.308,False,True,False,1,False
+2021-05-15,Toys,388.4,645.1,236.95,362.2,True,67.644,1.005,False,True,False,1,False
+2021-05-25,Toys,483.3,646.4,233.48,4869.0,True,152.07,2.258,False,True,True,2,True
+2021-06-18,Toys,573.6,640.1,234.73,550.5,True,176.784,2.625,False,True,False,1,False
+2021-07-01,Toys,341.3,634.8,239.93,352.2,False,-72.19,-1.071,False,True,False,1,False
+2021-07-02,Toys,351.9,638.4,233.36,364.0,False,-224.58,-3.334,True,True,False,2,True
+2021-07-03,Toys,357.2,633.4,235.68,336.8,False,-207.249,-3.077,True,True,False,2,True
+2021-07-04,Toys,890.45,637.75,235.69,326.2,False,327.829,4.868,True,True,False,2,True
+2021-07-05,Toys,1423.7,642.1,235.7,315.6,False,859.248,12.758,True,True,True,3,True
+2021-07-06,Toys,304.7,655.1,243.97,317.1,False,-258.252,-3.834,True,True,False,2,True
+2021-07-07,Toys,321.2,654.9,237.04,298.3,False,-250.135,-3.713,True,True,False,2,True
+2021-07-08,Toys,336.7,644.2,238.98,326.7,False,-155.268,-2.305,False,True,False,1,False
+2021-07-16,Toys,509.8,642.6,241.38,459.6,True,118.516,1.76,False,True,False,1,False
+2021-07-23,Toys,501.3,641.5,231.81,480.6,True,129.827,1.928,False,True,False,1,False
+2021-08-06,Toys,324.6,641.9,225.48,333.9,False,-144.952,-2.152,False,True,False,1,False
+2021-08-07,Toys,334.95,554.55,233.01,342.85,False,-117.899,-1.75,False,True,False,1,False
+2021-08-08,Toys,345.3,467.2,240.54,351.8,False,-100.757,-1.495,False,True,False,1,False
+2021-08-09,Toys,1216.0,651.0,233.59,297.3,False,768.284,11.407,True,True,True,3,True
+2021-08-10,Toys,309.0,648.6,236.68,282.8,False,-147.302,-2.187,False,True,False,1,False
+2021-08-11,Toys,315.95,652.85,235.968,293.325,False,-154.228,-2.289,False,True,False,1,False
+2021-08-12,Toys,322.9,657.1,235.255,303.85,False,-148.44,-2.203,False,True,False,1,False
+2021-08-28,Toys,504.1,622.0,233.96,523.1,True,113.908,1.692,False,True,False,1,False
+2021-08-29,Toys,473.2,627.5,236.03,445.5,True,86.25,1.281,False,True,False,1,False
+2021-09-05,Toys,484.2,621.8,234.88,440.6,True,99.336,1.475,False,True,False,1,False
+2021-09-27,Toys,448.5,651.9,244.36,470.9,True,77.084,1.145,False,True,False,1,False
+2021-10-12,Toys,322.0,323.7,230.73,17.2,False,-2.995,-0.044,False,False,True,1,False
+2021-11-01,Toys,299.8,638.5,238.52,3045.0,False,-46.359,-0.688,False,False,True,1,False
+2021-11-02,Toys,345.533,640.5,239.233,2170.8,False,-0.668,-0.009,False,False,True,1,False
+2021-11-04,Toys,437.0,644.5,240.66,422.4,True,84.017,1.248,False,True,False,1,False
+2021-12-13,Toys,279.6,699.7,236.33,2771.0,False,-20.809,-0.308,False,False,True,1,False
+2021-12-19,Toys,279.1,698.4,242.1,267.8,False,-199.316,-2.959,False,True,False,1,False
+2021-12-20,Toys,271.1,708.8,236.79,253.2,False,-269.987,-4.008,True,True,False,2,True
+2021-12-21,Toys,720.25,699.75,239.675,275.55,False,182.191,2.706,False,True,False,1,False
+2021-12-22,Toys,1169.4,690.7,242.56,297.9,False,621.044,9.221,True,True,True,3,True
+2021-12-23,Toys,740.25,686.6,242.38,293.25,False,191.724,2.847,False,True,False,1,False
+2021-12-24,Toys,311.1,682.5,242.2,288.6,False,-242.945,-3.607,True,True,False,2,True
+2021-12-25,Toys,305.9,685.1,243.05,294.0,False,-172.606,-2.562,False,True,False,1,False
+2022-01-02,Toys,341.6,691.5,233.56,326.3,True,59.165,0.879,False,True,False,1,False
+2022-01-09,Toys,418.25,632.7,246.235,412.6,False,118.1,1.754,False,True,False,1,False
+2022-01-24,Toys,363.2,683.2,235.88,345.4,True,61.101,0.908,False,True,False,1,False
+2022-03-05,Toys,287.5,664.5,242.53,272.1,False,-110.416,-1.639,False,True,False,1,False
+2022-03-06,Toys,310.25,617.85,230.87,306.25,False,-107.75,-1.599,False,True,False,1,False
+2022-03-07,Toys,719.35,626.5,236.425,305.3,False,295.298,4.385,True,True,False,2,True
+2022-03-08,Toys,588.067,629.7,241.073,312.433,False,157.636,2.341,False,True,False,1,False
+2022-03-10,Toys,325.5,636.1,250.37,326.7,False,-123.533,-1.834,False,True,False,1,False
+2022-03-12,Toys,390.8,639.6,236.89,380.1,True,60.567,0.9,False,True,False,1,False
+2022-04-09,Toys,378.1,604.9,231.04,393.3,False,53.765,0.799,False,True,False,1,False
+2022-04-12,Toys,268.0,395.8,235.91,270.6,False,-70.409,-1.045,False,True,False,1,False
+2022-04-13,Toys,475.4,382.2,243.73,494.2,True,111.38,1.654,False,True,True,2,True
+2022-04-16,Toys,483.4,381.1,236.37,456.1,True,125.558,1.865,False,True,True,2,True
+2022-04-22,Toys,426.6,629.0,230.66,427.6,True,89.77,1.333,False,True,False,1,False
+2022-04-28,Toys,328.6,309.3,235.14,71.0,False,10.224,0.152,False,False,True,1,False
+2022-04-29,Toys,340.7,308.9,247.02,321.6,False,18.62,0.277,False,False,True,1,False
+2022-05-25,Toys,431.8,573.3,229.41,399.0,True,58.165,0.864,False,True,False,1,False
+2022-07-31,Toys,531.3,558.5,236.39,498.3,True,153.505,2.28,False,True,False,1,False
+2022-08-03,Toys,281.5,655.1,234.85,271.3,False,-116.185,-1.725,False,True,False,1,False
+2022-08-24,Toys,544.8,600.2,243.36,558.3,True,135.63,2.014,False,True,True,2,True
+2022-10-02,Toys,481.7,609.1,238.87,447.6,True,70.755,1.051,False,True,False,1,False
+2022-10-05,Toys,513.7,627.7,237.4,474.1,True,88.801,1.319,False,True,False,1,False
+2022-10-17,Toys,532.8,607.9,230.91,501.0,True,148.37,2.203,False,True,False,1,False
+2022-10-27,Toys,389.3,346.2,245.02,352.6,False,1.046,0.016,False,False,True,1,False
+2022-10-30,Toys,503.0,352.8,230.33,499.6,True,139.679,2.074,False,True,True,2,True
+2022-11-10,Toys,561.5,554.1,230.15,526.6,True,177.832,2.641,False,True,True,2,True
+2022-11-20,Toys,424.3,559.6,231.99,397.1,True,74.408,1.105,False,True,False,1,False
+2022-11-22,Toys,326.2,562.8,239.74,3159.0,False,-23.295,-0.345,False,False,True,1,False
+2022-11-29,Toys,467.875,573.8,238.78,424.025,False,82.216,1.221,False,True,False,1,False
+2022-11-30,Toys,517.5,574.5,238.96,469.5,True,119.087,1.769,False,True,False,1,False
+2022-12-01,Toys,311.5,630.9,234.93,322.9,False,-78.836,-1.17,False,True,False,1,False
+2022-12-20,Toys,457.2,572.2,235.61,412.6,True,104.834,1.557,False,True,False,1,False
