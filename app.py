@@ -1,212 +1,181 @@
-"""Week 4 — Supply Chain Analytics Dashboard.
+"""Supply Chain Analytics — Streamlit dashboard (home page).
 
-Run locally with:
-    streamlit run app.py
-
-Reads everything from data/processed/, which is produced by running
-notebooks 01-05 in order. See docs/week4_deployment_guide.docx for setup
-and deployment instructions.
+Run from the project root with:
+    streamlit run app/app.py
 """
 import plotly.graph_objects as go
 import streamlit as st
 
-from src.data_loader import (
-    data_is_available,
+from lib.data_loader import (
+    ANOMALIES_FILE,
+    DAILY_FILE,
+    FORECASTS_FILE,
+    SCORES_FILE,
     load_anomalies,
-    load_arima_forecast,
-    load_baseline_forecast,
     load_daily,
-    load_model_comparison,
-)
-from src.metrics import confidence_band, mape, rmse
-
-st.set_page_config(
-    page_title="Supply Chain Analytics",
-    page_icon="📦",
-    layout="wide",
+    load_scores,
+    missing_files,
 )
 
-# ---------------------------------------------------------------------------
-# Guard: make sure the notebook pipeline has actually been run
-# ---------------------------------------------------------------------------
-if not data_is_available():
-    st.error(
-        "Processed data not found. Run notebooks `01_data_preprocessing.ipynb` "
-        "through `05_model_evaluation.ipynb` (in order) before launching the "
-        "dashboard — they generate everything under `data/processed/`."
+st.set_page_config(page_title="Supply Chain Analytics", page_icon="📦", layout="wide")
+st.sidebar.info(
+    "Use the sidebar to open the Forecasting and Anomaly Detection pages for deeper analysis."
+)
+
+st.title("Supply Chain Analytics — Demand Forecasting & Anomaly Detection")
+st.markdown(
+    """
+    An end-to-end analytics pipeline that **forecasts product demand** and
+    **flags unusual patterns** in historical supply chain data.
+
+    Use the pages in the sidebar or the quick navigation links to explore:
+    - **Forecasting** — compare the moving-average baseline against ARIMA,
+      with confidence-interval bands.
+    - **Anomaly Detection** — review demand spikes and dips flagged by Z-Score,
+      IQR, Isolation Forest, or their consensus.
+    """
+)
+
+missing = missing_files([DAILY_FILE, ANOMALIES_FILE, FORECASTS_FILE, SCORES_FILE])
+if missing:
+    st.warning(
+        "Missing processed data: " + ", ".join(f"`{name}`" for name in missing)
+        + ". Run the notebooks in `notebooks/` first to generate them."
     )
     st.stop()
 
 daily = load_daily()
 anomalies = load_anomalies()
-baseline_fc = load_baseline_forecast()
-arima_fc = load_arima_forecast()
-comparison = load_model_comparison()
+scores = load_scores()
 
-# ---------------------------------------------------------------------------
-# Sidebar controls
-# ---------------------------------------------------------------------------
-st.sidebar.title("📦 Controls")
+arima_wins = int((scores["winner"] == "ARIMA").sum())
+mean_mape_baseline = scores["MAPE_baseline"].mean()
+mean_mape_arima = scores["MAPE_arima"].mean()
+avg_daily_demand = daily["units_sold"].mean()
+avg_inventory = daily["inventory_level"].mean()
+consensus_flags = len(anomalies[anomalies["anomaly_consensus"]])
 
-categories = sorted(daily["product_category"].unique())
-category = st.sidebar.selectbox("Product category", categories)
-
-model_choice = st.sidebar.radio(
-    "Forecast model", ["ARIMA", "Moving-average baseline", "Both"], index=0
-)
-
-confidence_level = st.sidebar.select_slider(
-    "Confidence interval", options=[80, 85, 90, 95, 99], value=95,
-    help="Width of the shaded band around the forecast, sized from that "
-         "model's own backtest error for this category.",
-)
-
-show_anomalies = st.sidebar.checkbox("Highlight anomalies on history", value=True)
-anomaly_method = st.sidebar.selectbox(
-    "Anomaly method",
-    ["Consensus (2 of 3 methods)", "Z-Score", "IQR", "Isolation Forest"],
-    disabled=not show_anomalies,
-)
-
-st.sidebar.markdown("---")
-st.sidebar.caption(
-    "Data source: `data/processed/` — regenerate by re-running notebooks "
-    "01 → 05 after new data lands in `data/raw/`."
-)
-
-# ---------------------------------------------------------------------------
-# Filter to the selected category
-# ---------------------------------------------------------------------------
-cat_daily = daily[daily["product_category"] == category].sort_values("date")
-cat_anom = anomalies[anomalies["product_category"] == category]
-cat_baseline = baseline_fc[baseline_fc["product_category"] == category].sort_values("date")
-cat_arima = arima_fc[arima_fc["product_category"] == category].sort_values("date")
-cat_compare = comparison[comparison["product_category"] == category]
-
-method_col = {
-    "Consensus (2 of 3 methods)": "anomaly_consensus",
-    "Z-Score": "anomaly_z",
-    "IQR": "anomaly_iqr",
-    "Isolation Forest": "anomaly_if",
-}[anomaly_method]
-cat_anom_selected = cat_anom[cat_anom[method_col]]
-
-# ---------------------------------------------------------------------------
-# Header + KPI summary
-# ---------------------------------------------------------------------------
-st.title("Supply Chain Analytics Dashboard")
-st.caption(f"Category: **{category}**  ·  {len(cat_daily)} days of history")
-
-kpi_cols = st.columns(5)
-kpi_cols[0].metric("Avg. daily demand", f"{cat_daily['units_sold'].mean():,.0f} units")
-kpi_cols[1].metric("Avg. inventory level", f"{cat_daily['inventory_level'].mean():,.0f}")
-kpi_cols[2].metric(
-    "Consensus anomalies",
-    int(cat_anom["anomaly_consensus"].sum()) if len(cat_anom) else 0,
-    help="Days flagged by at least 2 of the 3 anomaly-detection methods.",
-)
-if not cat_compare.empty:
-    row = cat_compare.iloc[0]
-    kpi_cols[3].metric("ARIMA MAPE (backtest)", f"{row['MAPE_arima']:.1f}%")
-    kpi_cols[4].metric(
-        "Baseline MAPE (backtest)",
-        f"{row['MAPE_baseline']:.1f}%",
-        delta=f"{row['MAPE_baseline'] - row['MAPE_arima']:+.1f} pp vs ARIMA",
-        delta_color="normal" if row["arima_wins_mape"] else "inverse",
-    )
+c1, c2, c3, c4 = st.columns(4)
+c1.metric("Product categories", daily["product_category"].nunique())
+c2.metric("Avg. daily demand", f"{avg_daily_demand:,.1f} units")
+c3.metric("Avg. inventory level", f"{avg_inventory:,.0f}")
+c4.metric("ARIMA wins", f"{arima_wins}/{len(scores)}")
 
 st.markdown("---")
 
-# ---------------------------------------------------------------------------
-# Historical demand chart with anomalies
-# ---------------------------------------------------------------------------
-st.subheader("Historical demand")
+st.subheader("Demand & forecasting overview")
+sub1, sub2 = st.columns(2)
 
-fig_hist = go.Figure()
-fig_hist.add_trace(go.Scatter(
-    x=cat_daily["date"], y=cat_daily["units_sold"],
-    mode="lines", name="units sold", line=dict(color="#4C78A8", width=1.5),
+fig_ts = go.Figure()
+fig_ts.add_trace(go.Scatter(
+    x=daily.groupby("date")["units_sold"].sum().reset_index()["date"],
+    y=daily.groupby("date")["units_sold"].sum().reset_index()["units_sold"],
+    mode="lines", name="Total units sold", line=dict(color="#4C78A8", width=1.5),
 ))
-if show_anomalies and len(cat_anom_selected):
-    fig_hist.add_trace(go.Scatter(
-        x=cat_anom_selected["date"], y=cat_anom_selected["units_sold"],
-        mode="markers", name=f"{anomaly_method} anomaly",
-        marker=dict(color="#E45756", size=9, symbol="circle-open", line=dict(width=2)),
-    ))
-fig_hist.update_layout(
-    height=420, margin=dict(l=10, r=10, t=10, b=10),
+fig_ts.update_layout(
+    height=360, margin=dict(l=10, r=10, t=30, b=30),
     xaxis_title="date", yaxis_title="units sold",
-    legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0),
 )
-st.plotly_chart(fig_hist, use_container_width=True)
+sub1.plotly_chart(fig_ts, use_container_width=True)
 
-if show_anomalies:
-    with st.expander(f"Anomaly detail — {anomaly_method} ({len(cat_anom_selected)} days)"):
-        st.dataframe(
-            cat_anom_selected[["date", "units_sold", "residual", "anomaly_votes"]]
-            .sort_values("date"),
-            use_container_width=True, hide_index=True,
-        )
-
-st.markdown("---")
-
-# ---------------------------------------------------------------------------
-# Forecast backtest chart
-# ---------------------------------------------------------------------------
-st.subheader("Forecast backtest (held-out 30-day test window)")
-
-fig_fc = go.Figure()
-fig_fc.add_trace(go.Scatter(
-    x=cat_arima["date"], y=cat_arima["units_sold"],
-    mode="lines+markers", name="actual", line=dict(color="black", width=2),
+score_chart = go.Figure()
+score_chart.add_trace(go.Bar(
+    x=scores.sort_values("MAPE_arima")["product_category"],
+    y=scores.sort_values("MAPE_arima")["MAPE_baseline"],
+    name="Baseline",
+    marker_color="#4C78A8",
 ))
-
-if model_choice in ("ARIMA", "Both") and len(cat_arima):
-    lower, upper = confidence_band(cat_arima["forecast_arima"], cat_arima["units_sold"], confidence_level)
-    fig_fc.add_trace(go.Scatter(
-        x=list(cat_arima["date"]) + list(cat_arima["date"])[::-1],
-        y=list(upper) + list(lower)[::-1],
-        fill="toself", fillcolor="rgba(228,87,86,0.15)", line=dict(width=0),
-        name=f"ARIMA {confidence_level}% CI", showlegend=True, hoverinfo="skip",
-    ))
-    fig_fc.add_trace(go.Scatter(
-        x=cat_arima["date"], y=cat_arima["forecast_arima"],
-        mode="lines", name="ARIMA forecast", line=dict(color="#E45756", width=2, dash="dash"),
-    ))
-
-if model_choice in ("Moving-average baseline", "Both") and len(cat_baseline):
-    lower, upper = confidence_band(cat_baseline["forecast_ma"], cat_baseline["units_sold"], confidence_level)
-    fig_fc.add_trace(go.Scatter(
-        x=list(cat_baseline["date"]) + list(cat_baseline["date"])[::-1],
-        y=list(upper) + list(lower)[::-1],
-        fill="toself", fillcolor="rgba(76,120,168,0.15)", line=dict(width=0),
-        name=f"Baseline {confidence_level}% CI", showlegend=True, hoverinfo="skip",
-    ))
-    fig_fc.add_trace(go.Scatter(
-        x=cat_baseline["date"], y=cat_baseline["forecast_ma"],
-        mode="lines", name="Baseline forecast", line=dict(color="#4C78A8", width=2, dash="dash"),
-    ))
-
-fig_fc.update_layout(
-    height=420, margin=dict(l=10, r=10, t=10, b=10),
-    xaxis_title="date", yaxis_title="units sold",
-    legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0),
+score_chart.add_trace(go.Bar(
+    x=scores.sort_values("MAPE_arima")["product_category"],
+    y=scores.sort_values("MAPE_arima")["MAPE_arima"],
+    name="ARIMA",
+    marker_color="#E45756",
+))
+score_chart.update_layout(
+    height=360,
+    margin=dict(l=10, r=10, t=30, b=120),
+    xaxis_title="product category",
+    yaxis_title="MAPE (%)",
+    barmode="group",
 )
-st.plotly_chart(fig_fc, use_container_width=True)
+sub2.plotly_chart(score_chart, use_container_width=True)
 
-# ---------------------------------------------------------------------------
-# Model comparison across all categories
-# ---------------------------------------------------------------------------
 st.markdown("---")
-st.subheader("Model comparison — all categories")
-st.dataframe(
-    comparison.sort_values("MAPE_arima").style.format({
-        "MAPE_baseline": "{:.2f}%", "MAPE_arima": "{:.2f}%",
-        "RMSE_baseline": "{:.2f}", "RMSE_arima": "{:.2f}",
+
+st.subheader("Category-level demand and anomaly rate")
+
+by_cat = (
+    daily.groupby("product_category")["units_sold"].sum().sort_values(ascending=False)
+    .reset_index()
+)
+fig_cat = go.Figure(go.Bar(
+    x=by_cat["product_category"], y=by_cat["units_sold"], marker_color="#4C78A8",
+))
+fig_cat.update_layout(
+    height=360, margin=dict(l=10, r=10, t=30, b=120),
+    xaxis_title="product category", yaxis_title="total units sold",
+)
+
+anomaly_rate = (
+    anomalies[anomalies["anomaly_consensus"]]
+    .groupby("product_category")["anomaly_consensus"].count()
+    .rename("count")
+    .reset_index()
+)
+category_days = daily.groupby("product_category")["date"].count().rename("days").reset_index()
+anomaly_rate = anomaly_rate.merge(category_days, on="product_category", how="left")
+anomaly_rate["rate"] = anomaly_rate["count"] / anomaly_rate["days"] * 100
+fig_anom_rate = go.Figure(go.Bar(
+    x=anomaly_rate.sort_values("rate", ascending=False)["product_category"],
+    y=anomaly_rate.sort_values("rate", ascending=False)["rate"],
+    marker_color="#E45756",
+))
+fig_anom_rate.update_layout(
+    height=360, margin=dict(l=10, r=10, t=30, b=120),
+    xaxis_title="product category", yaxis_title="consensus anomaly rate (%)",
+)
+
+st.plotly_chart(fig_cat, use_container_width=True)
+st.plotly_chart(fig_anom_rate, use_container_width=True)
+
+st.markdown("---")
+
+st.subheader("Top category insights")
+top_improvement = (
+    scores.assign(improvement=scores["MAPE_baseline"] - scores["MAPE_arima"])
+    .sort_values("improvement", ascending=False)
+    .head(5)
+    [["product_category", "MAPE_baseline", "MAPE_arima", "improvement"]]
+)
+top_anomaly_rate = anomaly_rate.sort_values("rate", ascending=False).head(5)
+
+col5, col6 = st.columns(2)
+col5.dataframe(
+    top_improvement.style.format({
+        "MAPE_baseline": "{:.2f}%",
+        "MAPE_arima": "{:.2f}%",
+        "improvement": "{:.2f} pp",
     }),
-    use_container_width=True, hide_index=True,
+    use_container_width=True,
 )
-st.caption(
-    "MAPE / RMSE computed on each category's held-out 30-day test window "
-    "(see `notebooks/05_model_evaluation.ipynb`)."
+col5.caption("Top 5 categories where ARIMA improves most over the baseline.")
+col6.dataframe(
+    top_anomaly_rate.style.format({"rate": "{:.2f}%"}),
+    use_container_width=True,
+)
+col6.caption("Top 5 categories by consensus anomaly rate.")
+st.markdown("---")
+
+st.subheader("Dashboard summary")
+summary_cols = st.columns(3)
+summary_cols[0].metric("Consensus anomaly flags", f"{consensus_flags:,}")
+summary_cols[1].metric("Average ARIMA MAPE", f"{mean_mape_arima:.1f}%")
+summary_cols[2].metric("Average baseline MAPE", f"{mean_mape_baseline:.1f}%")
+
+st.markdown(
+    """
+    The sidebar contains the detailed per-category Forecasting and Anomaly
+    Detection pages. Use those pages for deeper analysis of model performance
+    and flagged demand anomalies.
+    """
 )
