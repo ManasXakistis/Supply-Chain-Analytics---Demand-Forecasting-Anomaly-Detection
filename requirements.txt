@@ -1,8 +1,27 @@
-pandas>=2.0
-numpy>=1.24
-matplotlib>=3.7
-statsmodels>=0.14
-scikit-learn>=1.3
-jupyter>=1.0
-streamlit>=1.30
-plotly>=5.20
+# Core data stack (Week 1)
+pandas==2.2.2
+numpy==1.26.4
+python-dateutil==2.9.0.post0
+
+# Visualization
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# Time-series decomposition & stats (Week 1 / Week 3)
+statsmodels==0.14.2
+scikit-learn==1.5.0
+
+# Notebook support (ipykernel is enough for the VS Code notebook UI;
+# the full 'jupyter' metapackage is omitted to avoid Windows long-path issues)
+ipykernel==6.29.4
+openpyxl==3.1.4
+
+# Week 4 interactive dashboard
+streamlit==1.60.0
+plotly==5.24.1
+
+# ---------------------------------------------------------------
+# Optional (install when needed)
+# Week 3 forecasting alternative:
+#   prophet==1.1.5
+# ---------------------------------------------------------------
